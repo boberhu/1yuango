@@ -1,0 +1,1 @@
+$(document).ready(function(){var d=$skin;var c=function(){var a=function(){var b=$("#a_go");var g=5;var h=function(){if(g<1){location.replace($www);return}else{g--;b.html("<em>\u7acb\u5373"+$saitName+"</em>\uff08"+g+"\u79d2\uff09")}setTimeout(h,1000)};h()};a()};$.getScript(d+"/js/ajaxfun.js?date=20130123",c)});

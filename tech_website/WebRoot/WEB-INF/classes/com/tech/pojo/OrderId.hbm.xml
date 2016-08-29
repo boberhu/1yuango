@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.tech.pojo.OrderId" table="orderid" >
+    	
+        <id name="id" type="java.lang.Long">
+            <generator class="native" />
+        </id>
+        
+        <property name="tm" type="java.lang.Long" 
+        	not-null="true" />
+        
+    </class>
+</hibernate-mapping>

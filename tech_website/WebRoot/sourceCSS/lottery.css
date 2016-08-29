@@ -1,0 +1,1244 @@
+@charset "utf-8"; 
+
+.jx_banner {
+	width: 980px;
+	margin: 5px auto;
+	height: 120px;
+	overflow: hidden;
+	background: url(/Images/jx_banner.jpg) left top no-repeat
+}
+
+.blank6 {
+	height: 6px;
+	font-size: 0
+}
+
+.orange {
+	color: #ca2a44;
+	font-weight: bold;
+	padding: 0 3px
+}
+
+.Lottery_banner {
+	width: 980px;
+	height: 102px;
+	overflow: hidden;
+	margin: 0 auto 10px
+}
+
+.Newpublish {
+	width: 980px;
+	margin: 0 auto
+}
+
+.NewpublishL {
+	width: 742px;
+	float: left
+}
+
+.publishT,.publishCen,.NewpublishL .publishCen .img em,.NewpublishL .publishCen .luck,.NewpublishL .publishCen .details,.NewpublishL .publishCen .jiexiaoimg em,.NewpublishL .publishCen ul .jiexiaoimg s,.jiexiaoTime s,.Rtitle,.Rcenter li b,.NewPinfo .infoimg em,.NewPinfo .infoimg span s,.NewPinfo .infoimg span,.MaOpen s,.MaOff s,.infoMenu li,.infoRTBg,.infoRTBg dd a,.NewpublishL .publishCen .luck .luck-js s,.headinfo s
+	{
+	background: url(/Images/newpublish.png) no-repeat
+}
+
+.publishT {
+	height: 34px;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	font-family: 宋体;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 34px;
+	color: #fff;
+	text-indent: 1em
+}
+
+.publishT em {
+	color: #fff001;
+	padding: 0 8px;
+	font-family: arial
+}
+
+.NewpublishL .publishBor {
+	display: inline-block;
+	position: relative;
+	width: 742px;
+	border-bottom: 1px solid #dbdbdb;
+	background: url(/Images/newpublish-cenbg.png) repeat-y
+}
+
+.NewpublishL .publishCen ul {
+	width: 247px;
+	border-bottom: 2px solid #ffd79f;
+	float: left
+}
+
+.NewpublishL .publishCen ul li {
+	width: 224px;
+	background: #fff;
+	float: left;
+	border: 1px solid #dbdbdb;
+	border-top: 0;
+	border-bottom: 1px solid #ffae3c;
+	height: 379px;
+	margin: 0 -1px 0 0;
+	position: relative;
+	padding: 0 11px
+}
+
+.NewpublishL .publishCen dl {
+	width: 224px;
+	border-bottom: 1px solid #efefef;
+	padding: 12px 0 6px 0;
+	height: 56px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	color: #999
+}
+
+.NewpublishL .publishCen dt {
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 2px 5px 0 0
+}
+
+.NewpublishL .publishCen dt img {
+	width: 50px;
+	height: 50px
+}
+
+.NewpublishL .publishCen dd {
+	width: 168px;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.NewpublishL .publishCen dd span {
+	display: block;
+	color: #666;
+	height: 35px;
+	overflow: hidden;
+	white-space: normal
+}
+
+.NewpublishL .publishCen dd em {
+	color: #ca2a44;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 5px 0 3px
+}
+
+.NewpublishL .publishCen ul li.hover {
+	border: 1px solid #ffae3c;
+	border-bottom: 2px solid #ffae3c;
+	height: 378px;
+	border-top: 0;
+	z-index: 99
+}
+
+.NewpublishL .publishCen .img {
+	width: 140px;
+	height: 140px;
+	border: 1px solid #eee;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	display: block
+}
+
+.NewpublishL .publishCen .img p {
+	position: absolute;
+	height: 15px;
+	overflow: hidden;
+	margin-top: 3px;
+	left: -1px
+}
+
+.NewpublishL .publishCen .img b {
+	background: #ea0101;
+	line-height: 15px;
+	line-height: 17px\9;
+	height: 15px;
+	float: left;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	text-align: left;
+	padding: 0 3px
+}
+
+.NewpublishL .publishCen .img em {
+	width: 7px;
+	height: 15px;
+	overflow: hidden;
+	float: left;
+	background-position: -2px -89px
+}
+
+.NewpublishL .publishCen .luck {
+	width: 191px;
+	height: 29px;
+	margin: 10px auto 5px auto;
+	text-align: center;
+	line-height: 29px;
+	border: 1px solid #ffcb4e;
+	color: #ca2a44;
+	background-position: 0 -133px;
+	background-repeat: repeat-x
+}
+
+.NewpublishL .publishCen .luck em {
+	font-weight: bold;
+	font-size: 13px
+}
+
+.NewpublishL .publishCen .luck .none {
+	display: none
+}
+
+.NewpublishL .publishCen .luck .luck-js {
+	background: #ff672d
+}
+
+.NewpublishL .publishCen .luck .luck-js a {
+	width: 176px;
+	height: 29px;
+	line-height: 29px; *+
+	line-height: 32px;
+	_line-height: 29px;
+	line-height: 32px\0;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 15px;
+	overflow: hidden;
+	position: relative
+}
+
+.NewpublishL .publishCen .luck .luck-js s {
+	width: 11px;
+	height: 11px;
+	background-position: -16px -34px;
+	display: inline-block;
+	top: 9px;
+	left: 32px;
+	float: left;
+	position: absolute;
+	overflow: hidden
+}
+
+.NewpublishL .publishCen .time {
+	width: 200px;
+	text-align: left;
+	color: #999
+}
+
+.NewpublishL .publishCen .time p {
+	width: 200px;
+	height: 18px;
+	overflow: hidden;
+	margin-left: 5px
+}
+
+.NewpublishL .publishCen .details {
+	width: 186px;
+	overflow: hidden;
+	margin-top: 10px;
+	border: 1px solid #ececec;
+	line-height: 26px;
+	background-position: 0 -162px;
+	background-repeat: repeat-x;
+	position: relative;
+	padding: 0 0 0 5px;
+	color: #999
+}
+
+.NewpublishL .publishCen .details em {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0 3px;
+	color: #ca2a44
+}
+
+.NewpublishL .publishCen .details a {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	margin-top: 1px\0; *+
+	margin-top: 1px;
+	color: #696969
+}
+
+.NewpublishL .publishCen .details a:hover {
+	color: #ca2a44
+}
+
+.details a:visited {
+	color: #999
+}
+
+.details a:hover {
+	color: #ca2a44;
+	text-decoration: underline
+}
+
+.NewpublishL .publishCen ul li.jiexiao {
+	border: 1px solid #F00;
+	border-bottom: 2px solid #F00;
+	height: 377px;
+	z-index: 99
+}
+
+.NewpublishL .publishCen ul .jiexiaoT {
+	border-bottom: 1px solid #efefef;
+	height: 73px;
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+.NewpublishL .publishCen ul .jiexiaoT span {
+	overflow: hidden;
+	height: 48px;
+	margin: 16px 0 0 0;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	display: inline-block
+}
+
+.NewpublishL .publishCen ul .jiexiaoimg {
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #eee
+}
+
+.NewpublishL .publishCen .jiexiaoimg img {
+	width: 140px;
+	height: 140px
+}
+
+.NewpublishL .publishCen .jiexiaoimg p {
+	position: absolute;
+	height: 15px;
+	overflow: hidden;
+	line-height: 15px;
+	margin-top: 3px;
+	left: -1px
+}
+
+.NewpublishL .publishCen .jiexiaoimg b {
+	background: #ea0101;
+	float: left;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	text-align: left;
+	padding: 0 3px
+}
+
+.NewpublishL .publishCen .jiexiaoimg em {
+	width: 7px;
+	height: 15px;
+	overflow: hidden;
+	float: left;
+	background-position: -2px -89px
+}
+
+.NewpublishL .publishCen ul .jiexiaoimg s {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	background: url(/Images/index.png) 0 -40px no-repeat;
+	right: -7px;
+	bottom: -3px
+}
+
+.NewpublishL .publishCen ul .jiexiaoDate {
+	text-align: center;
+	color: #999;
+	margin-top: 20px
+}
+
+.jiexiaoDate em,.jiexiaoDate i {
+	font-weight: bold;
+	font-style: normal
+}
+
+.jiexiaoDate em {
+	color: #f00
+}
+
+.jiexiaoDate i {
+	color: #00aeff
+}
+
+.jiexiaoTime {
+	background: #f00;
+	width: 160px;
+	height: 23px;
+	margin: 8px auto 0;
+	color: #fff;
+	font-weight: bold
+}
+
+.jiexiaoTime s {
+	background: url(/Images/zhong.gif) no-repeat;
+	width: 14px;
+	height: 14px;
+	margin: 5px 5px 0;
+	float: left
+}
+
+.jiexiaoTime span.shi {
+	width: 75px;
+	color: #FF0;
+	float: left;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px
+}
+
+.jiexiaoTime span.wenzi {
+	width: 55px;
+	color: #FFF;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 22px;
+	line-height: 28px\0
+}
+
+.jiexiaoTime .lateron {
+	text-align: center;
+	line-height: 22px;
+	margin: 0 auto;
+	display: inline-table;
+	width: 153px
+}
+
+.NewpublishR {
+	width: 230px;
+	float: right
+}
+
+.Newpublishbor {
+	width: 228px;
+	border: 1px solid #e8e8e8
+}
+
+.Rtitle {
+	font-size: 14px;
+	line-height: 33px;
+	text-indent: 1em;
+	font-weight: bold;
+	background-position: 0 -51px;
+	background-repeat: repeat-x;
+	height: 33px;
+	border-bottom: 1px solid #e8e8e8
+}
+
+.Rcenter {
+	width: 220px;
+	margin: 0 auto
+}
+
+.Rcenter li {
+	width: 214px;
+	height: 68px;
+	padding: 8px 3px 0;
+	margin: 0 auto;
+	border-bottom: 1px dashed #e5e6e6;
+	vertical-align: top
+}
+
+.RcenterPH li {
+	position: relative
+}
+
+.RcenterPH {
+	height: 615px;
+	overflow: hidden
+}
+
+.buylistH {
+	height: 384px;
+	overflow: hidden
+}
+
+.Rcenter li b {
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	left: 5px;
+	top: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #fff;
+	background-position: -76px -35px
+}
+
+.Rcenter li a.pic {
+	border: 1px solid #fff;
+	width: : 56px;
+	height: 56px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	margin-right: 4px;
+	margin-top: 2px
+}
+
+.Rcenter li a.pic img {
+	width: : 56px;
+	height: 56px
+}
+
+.Rcenter li a.pic:hover {
+	border: 1px solid #ca2a44
+}
+
+.Rcenter ul li span {
+	width: 149px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	overflow: hidden;
+	color: #999
+}
+
+.Rcenter ul li span.who {
+	width: 152px;
+	float: left;
+	color: #333;
+	font-size: 12px;
+	white-space: nowrap
+}
+
+.Rcenter ul li span.who a,.Rcenter ul li span.who a:visited {
+	color: #333
+}
+
+.Rcenter ul li span.who a:hover {
+	color: #ca2a44
+}
+
+.Rcenter ul li span em {
+	color: #f00;
+	font-weight: bold;
+	padding: 0 3px
+}
+
+.Rcenter ul li span i {
+	color: #00aeff;
+	font-weight: bold;
+	font-style: normal;
+	padding: 0 3px
+}
+
+.Rcenter ul li span.Rintro {
+	width: 142px;
+	height: 40px;
+	float: left;
+	color: #333;
+	font-size: 12px
+}
+
+.Rcenter ul li span.Rtagou {
+	width: 145px;
+	float: left;
+	color: #9f9f9f;
+	font-size: 12px
+}
+
+.Rcenter ul li span.Rtagou p {
+	display: inline;
+	padding-right: 3px
+}
+
+.current {
+	width: 980px;
+	height: 25px;
+	line-height: 25px;
+	color: #cac9c9;
+	margin-bottom: 0
+}
+
+.current a,.current a:visited {
+	color: #a2a2a2
+}
+
+.NewPubBor {
+	width: 742px;
+	border: 1px solid #e8e8e8;
+	text-align: center
+}
+
+.NewPubBor h1 {
+	height: 39px;
+	display: block;
+	line-height: 39px;
+	border-bottom: 1px solid #e8e8e8;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 1em;
+	color: #666
+}
+
+.NewPinfo {
+	width: 714px;
+	margin: 5px auto 0;
+	position: relative;
+	text-align: left
+}
+
+.NewPinfo .infoimg {
+	width: 250px;
+	height: 301px;
+	float: left;
+	text-align: center;
+	display: inline-block
+}
+
+.NewPinfo .infoimg p {
+	position: absolute;
+	height: 18px;
+	overflow: hidden;
+	line-height: 18px;
+	left: -15px;
+	top: 5px
+}
+
+.NewPinfo .infoimg b {
+	background: #ea0101;
+	float: left;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	text-align: left;
+	padding: 0 3px
+}
+
+.NewPinfo .infoimg em {
+	width: 10px;
+	height: 18px;
+	overflow: hidden;
+	float: left;
+	background-position: 0 -87px
+}
+
+.NewPinfo .infoimg span {
+	width: 114px;
+	height: 23px;
+	display: inline-block;
+	border: 1px solid #dbdbdb;
+	margin: 6px auto 0;
+	text-align: left;
+	background-position: 0 -166px;
+	background-repeat: repeat-x
+}
+
+.NewPinfo .infoimg span s {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 4px 5px 0 10px;
+	display: inline;
+	background-position: 0 -35px;
+	cursor: pointer
+}
+
+.NewPinfo .infoimg span a {
+	display: block;
+	text-decoration: none;
+	line-height: 23px;
+	line-height: 26px\0
+}
+
+.infoimg a.infopic {
+	width: : 250px;
+	height: 250px;
+	display: inline-block;
+	overflow: hidden
+}
+
+.infoimg a.infopic img {
+	width: : 250px;
+	height: 250px
+}
+
+.infoCen {
+	float: left;
+	width: 450px;
+	margin-left: 10px;
+	display: inline
+}
+
+.headinfo {
+	margin-top: 8px
+}
+
+.headinfo a.pic {
+	border: 1px solid #fff;
+	width: 53px;
+	height: 73px;
+	float: left;
+	overflow: hidden;
+	margin-top: 2px;
+	margin-right: 4px
+}
+
+.headinfo a.pic img {
+	width: : 53px;
+	height: 53px
+}
+
+.headinfo span {
+	width: 385px;
+	height: 20px;
+	overflow: hidden;
+	display: block;
+	color: #999
+}
+
+.headinfo span em {
+	font-size: 12px
+}
+
+.headinfo s {
+	width: 11px;
+	height: 11px;
+	background-position: -27px -34px;
+	display: inline-block;
+	margin: 0 3px -2px 5px; *
+	margin: 1px 3px 0 5px;
+	overflow: hidden
+}
+
+.MaCenter {
+	border: 1px solid #ededed;
+	margin-top: 10px
+}
+
+.MaCenter p {
+	background: #f7f7f7;
+	text-align: left;
+	line-height: 30px;
+	color: #999;
+	text-indent: 1em
+}
+
+.MaCenterH {
+	height: 144px;
+	overflow: hidden
+}
+
+.MaCenter dl {
+	display: inline-block;
+	background: url(/Images/newpublish-xgm.png) top repeat-x;
+	color: #666
+}
+
+.MaCenter dl dt {
+	float: left;
+	width: 148px;
+	text-align: center;
+	line-height: 24px;
+	height: 24px
+}
+
+.MaCenter dl dd {
+	float: left;
+	width: 300px
+}
+
+.MaCenter dl dd b {
+	width: 75px;
+	display: block;
+	float: left;
+	font-weight: normal;
+	line-height: 24px;
+	height: 24px
+}
+
+.MaOpen {
+	border: 1px solid #ededed;
+	border-top: 0;
+	text-align: center;
+	background: #f7f7f7;
+	line-height: 26px;
+	display: none;
+	cursor: pointer
+}
+
+.MaOpen span {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	color: #999;
+	text-decoration: none
+}
+
+.MaOpen s {
+	background-position: -92px -36px;
+	width: 7px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	right: -10px;
+	top: 11px
+}
+
+.MaOff {
+	border: 1px solid #ededed;
+	border-top: 0;
+	text-align: center;
+	background: #f7f7f7;
+	line-height: 26px;
+	cursor: pointer
+}
+
+.MaOff span {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	color: #999;
+	text-decoration: none
+}
+
+.MaOff s {
+	background-position: -101px -36px;
+	width: 7px;
+	height: 7px;
+	display: block;
+	position: absolute;
+	right: -10px;
+	top: 11px
+}
+
+.infoMainC {
+	width: 714px;
+	margin: 10px auto 0 auto
+}
+
+.infoMain {
+	width: 714px;
+	margin: 0 auto 10px auto
+}
+
+.infoMenu {
+	width: 704px;
+	height: 29px;
+	border-bottom: 1px solid #ca2a44;
+	padding-left: 10px
+}
+
+.infoMenu li {
+	float: left;
+	background-position: 0 -192px;
+	background-repeat: repeat-x;
+	border: 1px solid #ca2a44;
+	border-bottom: 0 solid #fff;
+	font-size: 14px;
+	color: #ca2a44;
+	margin-right: 5px;
+	cursor: pointer
+}
+
+.infoMenu li.menuOn {
+	background: #ca2a44;
+	border: 0;
+	color: #fff;
+	font-weight: bold
+}
+
+.infoMenu li a,.infoMenu li a:visited {
+	color: #ca2a44;
+	text-decoration: none;
+	padding: 5px 15px 2px 15px;
+	display: inline-block
+}
+
+.infoMenu li a:hover,.infoMenu li.menuOn a:hover {
+	text-decoration: none
+}
+
+.infoMenu li.menuOn a,.infoMenu li.menuOn a:visited {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px 3px 15px;
+	display: inline-block
+}
+
+.infoMenu p {
+	float: right;
+	margin-top: 8px
+}
+
+.infoMenu p a,.infoMenu p a:visited {
+	color: #666
+}
+
+.infoMenu p a:hover {
+	color: #ca2a44
+}
+
+.pro-main {
+	overflow: hidden;
+	zomm: 1
+}
+
+.pro-mainH {
+	display: none
+}
+
+.infoMsg {
+	color: #767676;
+	line-height: 35px;
+	background: #fff5e1;
+	text-align: left;
+	padding-left: 20px
+}
+
+.infoMsg em {
+	font-size: 12px
+}
+
+.infoMain dl {
+	border-bottom: 1px solid #e1e1e1;
+	display: inline-block;
+	text-align: left;
+	padding: 15px 0
+}
+
+.infoMain dt {
+	float: left;
+	width: 100px;
+	text-align: center;
+	padding-top: 6px
+}
+
+.infoMain dt img {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #fff
+}
+
+.infoMain dd {
+	float: left;
+	width: 610px
+}
+
+.infoMain dd p {
+	display: block;
+	color: #717171;
+	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 5px;
+	padding-bottom: 5px
+}
+
+.infoMain dd span {
+	font-weight: bold;
+	color: #666;
+	padding-right: 10px;
+	font-size: 12px
+}
+
+.infoMain dd em {
+	font-size: 12px
+}
+
+.infoMain dd b {
+	width: 87px;
+	display: block;
+	float: left;
+	font-weight: normal;
+	line-height: 20px;
+	color: #999;
+	text-align: center
+}
+
+.infoMainC thead th {
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e8e8e8;
+	color: #666;
+	height: 34px;
+	line-height: 34px;
+	text-align: left
+}
+
+.infoMainC thead th,.infoMainC tbody td {
+	padding-left: 20px
+}
+
+.infoMainC tbody td {
+	font-weight: normal;
+	height: 34px;
+	line-height: 34px;
+	text-align: left
+}
+
+.infoMainC tbody td.t-ip span {
+	color: #999;
+	padding-left: 10px
+}
+
+.infoMainC tbody td.t-time {
+	padding-left: 20px
+}
+
+.infoMainC tfoot td {
+	background-color: #FFF;
+	text-align: left
+}
+
+.infoRbor {
+	width: 228px;
+	overflow: hidden;
+	border: 1px solid #e9e9e9;
+	border-bottom: 0 solid #fff;
+	border-top: 2px solid #16b5ff;
+	background: url(/Images/newpublish-xgm.png) bottom repeat-x
+}
+
+.infoRTBg {
+	height: 84px;
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	overflow: hidden;
+	border-bottom: 1px solid #e9e9e9
+}
+
+.infoRTBg p {
+	width: 230px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px
+}
+
+.infoRTBg p em {
+	color: #ca2a44;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.infoRTBg dl {
+	height: 35px;
+	overflow: hidden
+}
+
+.infoRTBg dt {
+	width: 113px;
+	padding-left: 12px;
+	float: left
+}
+
+.infoRTBg dt span {
+	height: 18px;
+	overflow: hidden;
+	display: block;
+	color: #999
+}
+
+.infoRTBg dt span em {
+	color: #f00;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0 3px
+}
+
+.infoRTBg dt span i {
+	color: #00aeff;
+	font-weight: bold;
+	font-size: 12px;
+	font-style: normal;
+	padding: 0 3px
+}
+
+.infoRTBg dd {
+	float: left
+}
+
+.infoRTBg dd a {
+	width: 95px;
+	height: 28px;
+	background-position: 0 -224px;
+	display: inline-block;
+	margin-top: 6px
+}
+
+.infoRPeriod {
+	width: 240px;
+	overflow: hidden
+}
+
+.infoRPeriod a {
+	width: 76px;
+	height: 33px;
+	overflow: hidden;
+	border-bottom: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	float: left;
+	text-align: center;
+	line-height: 33px;
+	font-size: 12px;
+	color: #666
+}
+
+.infoRPeriod a:hover {
+	color: #ca2a44;
+	text-decoration: none
+}
+
+.infoRPeriod a.Period {
+	background: #fff5e1;
+	font-weight: bold;
+	color: #ca2a44;
+	text-decoration: none
+}
+
+}
+.ygRecord {
+	width: 714px;
+	overflow: hidden
+}
+
+.ygRecord .yghelp {
+	border: 1px solid #ffd9bf;
+	background: #fffdf8;
+	text-align: left;
+	padding: 5px 0 5px 20px;
+	line-height: 20px;
+	color: #f08800
+}
+
+.ygRecord ul.Record_content {
+	height: 35px;
+	width: 714px;
+	overflow: hidden
+}
+
+.ygRecord div.RecordOnehundred {
+	border: 1px solid #ca2a44;
+	border-top: 0 solid #ca2a44;
+	position: relative;
+	width: 712px;
+	overflow: hidden
+}
+
+.ygRecord div.RecordOnehundred h4 {
+	background: #ca2a44;
+	color: #FFF;
+	height: 29px;
+	line-height: 28px;
+	text-align: center;
+	width: 712px
+}
+
+.ygRecord div.RecordOnehundred div.FloatBox {
+	background: url("/Images/resultArrow01.png") repeat-y scroll 72px 0
+		transparent;
+	border: 1px solid #ffb882;
+	height: 3598px;
+	left: 86px;
+	position: absolute;
+	top: 29px;
+	width: 145px
+}
+
+.ygRecord div.RecordOnehundred div.ResultBox {
+	background: none repeat scroll 0 0 #ff9c00;
+	color: #FFF;
+	line-height: 20px;
+	padding: 10px 0 10px 40px;
+	width: 666;
+	text-align: left
+}
+
+.ygRecord div.RecordOnehundred ul {
+	border-bottom: 1px solid #f9e6cc;
+	height: 35px;
+	width: 714;
+	background: #fffef1
+}
+
+.ygRecord ul.Record_title {
+	background: url("/Images/ygRecord.png") repeat scroll 0 -30px #f6f6f6;
+	height: 33px;
+	width: 714px;
+	overflow: hidden;
+	border-bottom: 1px solid #f0f0f0
+}
+
+.ygRecord ul.Record_title li {
+	color: #666;
+	float: left;
+	line-height: 33px;
+	text-align: left;
+	padding: 0 0 0 20px
+}
+
+.ygRecord ul.Record_content li,.ygRecord div.RecordOnehundred ul li {
+	color: #666;
+	display: block;
+	float: left;
+	text-align: left;
+	height: 17px;
+	line-height: 17px;
+	overflow: hidden;
+	padding: 9px 0 9px 20px
+}
+
+.ygRecord ul.Record_title li.time,.ygRecord ul.Record_content li.time {
+	width: 205px
+}
+
+.ygRecord div.RecordOnehundred ul li.time {
+	width: 145px
+}
+
+.ygRecord div.RecordOnehundred ul li.timeVal {
+	color: #ca2a44;
+	padding-left: 4px;
+	text-align: left;
+	width: 61px
+}
+
+.ygRecord ul.Record_title li.nem,.ygRecord ul.Record_content li.nem,.ygRecord ul.Record_contents li.nem,.ygRecord div.RecordOnehundred ul li.nem
+	{
+	width: 80px
+}
+
+.ygRecord div.RecordOnehundred ul li.nem {
+	padding-left: 14px
+}
+
+.ygRecord ul.Record_title li.name,.ygRecord ul.Record_content li.name,.ygRecord div.RecordOnehundred ul li.name
+	{
+	width: 295px;
+	white-space: nowrap;
+	padding-left: 15px
+}
+
+.ygRecord ul.Record_title li.much,.ygRecord ul.Record_content li.much,.ygRecord div.RecordOnehundred ul li.much
+	{
+	width: 65px;
+	padding-left: 14px
+}
+
+.ygRecord ul.Record_content li.name a,.ygRecord ul.Record_contents li.name a,.ygRecord div.RecordOnehundred ul li.name a
+	{
+	color: #4a91d4;
+	line-height: 17px
+}
+
+.ygRecord a:hover,.ygRecord div a:hover,.ygRecord ul li.name a:hover,.ygRecord div.RecordOnehundred ul li.name a:hover
+	{
+	color: #ca2a44
+}

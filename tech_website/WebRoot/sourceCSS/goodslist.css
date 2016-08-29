@@ -1,0 +1,326 @@
+@charset "utf-8"; 
+
+.goods-list-box {
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.goods-list-crumbs {
+	border: 1px solid #e8e8e8;
+	width: 978px;
+	float: left;
+	height: 41px;
+	line-height: 41px;
+	background: url(/Images/goodslist.png) transparent scroll 0 -96px
+		repeat-x
+}
+
+.goods-list-crumbs h2 {
+	width: 600px;
+	float: left;
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: normal;
+	line-height: 40px;
+	color: #ca2a44;
+	font-family: "黑体";
+	overflow: hidden
+}
+
+.goods-list-crumbs h2 span {
+	width: 8px;
+	height: 15px;
+	display: block;
+	float: left;
+	background: url(/Images/goodslist.png) transparent scroll -60px -34px
+		no-repeat;
+	margin: 11px 6px 0 0
+}
+
+.goods-list-crumbs .rel {
+	width: 300px;
+	position: relative;
+	float: right;
+	padding: 0
+}
+
+.goods-list-crumbs ul {
+	position: absolute;
+	z-index: 1;
+	top: 14px;
+	right: 5px
+}
+
+.goods-list-crumbs ul li {
+	float: left;
+	line-height: 30px;
+	color: #848484;
+	margin-right: 5px
+}
+
+.goods-list-crumbs ul li a {
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	display: block
+}
+
+.goods-list-crumbs ul li.mr a {
+	width: 60px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	display: block;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4
+}
+
+.goods-list-crumbs ul li.mr a.click {
+	width: 60px;
+	height: 27px;
+	text-align: center;
+	display: block;
+	border: 1px solid #e4e4e4;
+	border-bottom: 0;
+	background: #fff
+}
+
+.goods-list-crumbs ul li p {
+	float: left
+}
+
+.goods-list-crumbs ul li.new a,.goods-list-crumbs ul li.money a,.goods-list-crumbs ul li.hot a
+	{
+	background: url(/Images/goodslist.png) -60px 0
+}
+
+.goods-list-crumbs ul li.money a.click {
+	background: url(/Images/goodslist.png) 0 -0px
+}
+
+.goods-list-crumbs ul li.money a.click1 {
+	background: url(/Images/goodslist.png) 0 -34px
+}
+
+.goods-list-box .goodslist {
+	width: 980px;
+	overflow: hidden
+}
+
+.goods-list-box p.nogoods {
+	width: 978px;
+	height: 90px;
+	line-height: 90px;
+	border: 1px solid #e4e4e4;
+	text-align: center;
+	padding: 0;
+	margin: 0; *
+	margin: -20px 0 0 0;
+	_margin: -20px 0 0 0
+}
+
+.goods-list-box .goodslist .item {
+	margin: 0 0 0 -12px;
+	width: 995px
+}
+
+.goods-list-box .goodslist li {
+	float: left;
+	display: _block;
+	display: inline;
+	margin: 12px 0 0 12px;
+	width: 210px;
+	padding: 12px;
+	min-height: 358px;
+	border: 1px solid #e8e8e8;
+	overflow: hidden
+}
+
+.goods-list-box .goodslist li dt {
+	text-align: center;
+	width: 210px;
+	float: left;
+	margin-bottom: 10px
+}
+
+.goods-list-box .goodslist li:hover {
+	border: 1px solid #ca2a44
+}
+
+.goods-list-box .goodslist li dt img {
+	width: 200px;
+	height: 200px
+}
+
+.goods-list-box .goodslist li dd {
+	text-align: left;
+	float: left;
+	width: 210px;
+	height: 24px;
+	color: #666
+}
+
+.goods-list-box .goodslist .gl-name {
+	width: 210px;
+	height: 36px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	overflow: hidden
+}
+
+.goods-list-box .goodslist .gl-price {
+	line-height: 18px;
+	height: 18px
+}
+
+.goods-list-box .goodslist .gl-price span {
+	padding-right: 5px
+}
+
+.goods-list-box .goodslist .gl-has-attended {
+	line-height: 18px;
+	height: 18px
+}
+
+.goods-list-box .goodslist .gl-has-attended span {
+	padding: 0 5px;
+	color: #f00;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.goods-list-box .goodslist .gl-needall-attended {
+	line-height: 18px;
+	height: 18px
+}
+
+.goods-list-box .goodslist .gl-needall-attended span {
+	padding: 0 5px;
+	color: #14a8e4;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.goods-list-box .goodslist .gl-buybtn {
+	padding: 10px 0 6px 0;
+	height: 32px
+}
+
+.gl-buybtn a {
+	border: medium none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	width: 115px;
+	height: 32px;
+	display: block;
+	line-height: 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	background: url(/Images/arrow_button.png) 0 0
+}
+
+.gl-buybtn a:hover {
+	color: #fff;
+	text-decoration: none
+}
+
+.btn-skin-orange a:hover {
+	color: #fff;
+	text-decoration: none
+}
+
+.goods-list-box .page_nav {
+	width: 980px;
+	height: 50px;
+	margin: 20px 0 0 0
+}
+
+.page_nav ul.pageUL {
+	float: right;
+	padding: 20px 5px 0 0
+}
+
+.page_nav ul.pageUL li {
+	float: left;
+	list-style: none outside none;
+	text-align: center;
+	margin: 0 5px
+}
+
+.page_nav li {
+	float: left;
+	margin: 0;
+	list-style: none outside none;
+	text-align: center
+}
+
+.page_nav li.total_page {
+	color: #333;
+	padding-right: 20px;
+	line-height: 38px
+}
+
+.page_nav li.total_page i {
+	color: #F00;
+	font-style: normal
+}
+
+.page_nav li.curr_page {
+	width: 25px;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	background-color: #ffede1;
+	color: #f50;
+	font-weight: bold;
+	border: 1px solid #fd6d01
+}
+
+.page_nav li a {
+	width: 25px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #dedede
+}
+
+.page_nav li a:hover {
+	color: #fd6d01;
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	border: 1px solid #fd6d01;
+	text-decoration: none
+}
+
+.page_nav li.prev_page a {
+	background: url(/Images/arrow_button.png) -171px -13px no-repeat;
+	width: 46px;
+	padding-right: 10px;
+	white-space: nowrap;
+	text-indent: 12px;
+	display: block
+}
+
+.page_nav li.next_page a {
+	background: url(/Images/arrow_button.png) right 5px no-repeat;
+	width: 46px;
+	padding: 0 10px 0 0;
+	white-space: nowrap
+}
+
+.page_nav li.prev_page a:hover,.page_nav li.next_page a:hover {
+	width: 46px;
+	padding: 0 10px 0 0;
+	white-space: nowrap
+}

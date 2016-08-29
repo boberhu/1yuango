@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-3.0.xsd 
+	http://www.springframework.org/schema/jee 
+	http://www.springframework.org/schema/jee/spring-jee-3.0.xsd 
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd 
+	http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd" >
+	<context:annotation-config />
+	<context:component-scan base-package="com.tech"></context:component-scan>
+
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+
+	<bean id="scheduler"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<!-- <ref bean="lottery" /> -->
+				<!-- <ref bean="virtualBuyByType" /> -->
+				<!-- <ref bean="orderMonitorTrigger" /> -->
+			</list>
+		</property>
+		<property name="autoStartup" value="true" />
+	</bean>
+	
+	<bean id="timerBean" class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<ref local="virtualBuyByTypeJobTimer"/>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="virtualBuyByTypeJobTimer" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="delay" value="20000"></property>
+		<property name="period" value="47000"></property>
+		<property name="timerTask" ref="virtualBuyByTypeJobTask"></property>
+	</bean>
+	
+	<bean id="virtualBuyByTypeJobTask" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
+		<property name="targetObject">
+			<ref bean="virtualUserBuyByType"/>
+		</property>
+		<property name="targetMethod">
+			<value>goBuy</value>
+		</property>
+	</bean>
+	
+	<bean id="lottery"
+		class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="lotteryBean" />
+		<property name="cronExpression" value="0/10 * * * * ?" />
+	</bean>
+	<bean id="lotteryBean"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="lotteryUtil" />
+		<property name="targetMethod" value="go" />
+		<property name="concurrent" value="false" />
+	</bean>
+	
+ 	<!-- <bean id="virtualBuyByType"
+		class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="virtualBuyByTypeBean" />
+		<property name="cronExpression" value="0/6 * * * * ?" />
+	</bean>
+	<bean id="virtualBuyByTypeBean"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="virtualUserBuyByType" />
+		<property name="targetMethod" value="goBuy" />
+		<property name="concurrent" value="false" />
+	</bean> -->
+	
+	<bean id="orderMonitorTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="orderMonitorJob" />
+		<property name="cronExpression" value="0/30 * * * * ?" />
+	</bean>
+	<bean id="orderMonitorJob"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="orderMonitor" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	
+</beans>
+

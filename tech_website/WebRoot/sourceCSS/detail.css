@@ -1,0 +1,1556 @@
+@charset "utf-8"; 
+
+.hiden {
+	display: none
+}
+
+.share_banner {
+	width: 980px;
+	height: 101px;
+	background: url(/Images/sharebanner.png) no-repeat
+}
+
+.share_banner2 {
+	width: 980px;
+	height: 101px;
+	position: relative
+}
+
+.share_banner a {
+	width: 182px;
+	height: 42px;
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 19px
+}
+
+.share_select {
+	margin: 0 auto;
+	width: 980px;
+	height: 26px;
+	background: #f7f7f7
+}
+
+.share_select ul {
+	width: 354px;
+	float: left
+}
+
+.share_select ul li {
+	width: 117px;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #fff
+}
+
+.share_select ul li a {
+	width: 117px;
+	height: 20px;
+	line-height: 20px; *
+	line-height: 24px;
+	_line-height: 20px;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+	background: #3db8ff
+}
+
+.share_select ul li a:hover {
+	text-decoration: none;
+	background: #f16501;
+	color: #fff
+}
+
+.share_select ul li .a_click {
+	width: 117px;
+	height: 26px;
+	line-height: 20px; *
+	line-height: 26px;
+	color: #fff;
+	display: block;
+	background: url(/Images/share.png) no-repeat 0 -143px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: -1px 0 0 0; *
+	margin: -1px 0 0 0
+}
+
+.share_select ul li .a_click:hover {
+	background: url(/Images/share.png) no-repeat 0 -143px
+}
+
+.share_select p {
+	width: 596px;
+	height: 20px;
+	color: #fff;
+	text-align: right;
+	float: right;
+	background: #3db8ff;
+	padding: 0 30px 0 0
+}
+
+.share_select p em {
+	font-weight: bold;
+	padding: 0 3px
+}
+
+.qshare_box {
+	width: 980px;
+	margin: 0 auto 10px auto;
+	text-align: left
+}
+
+.qshare_box_left {
+	width: 748px;
+	float: left;
+	border: 1px solid #e1e1e1
+}
+
+.qshare_box_right {
+	width: 230px;
+	float: right;
+	border-bottom: 1px solid #ebebeb;
+	position: relative
+}
+
+.qhackbox {
+	clear: both;
+	border-top: transparent 1px none
+}
+
+.qshare_box_left a:link {
+	text-decoration: none;
+	color: #3275a9
+}
+
+.qshare_box_left a:visited {
+	text-decoration: none;
+	color: #3275a9
+}
+
+.qshare_box_left a:hover {
+	text-decoration: underline;
+	color: #ca2a44
+}
+
+.qshare_box_left a:active {
+	text-decoration: none;
+	color: #3275a9
+}
+
+.qshare_box_left .qshare_main {
+	width: 718px;
+	margin: 0 15px 0 15px
+}
+
+.qshare_box_left .qshare_main .qshare_title {
+	width: 718px;
+	float: left;
+	border-bottom: 1px dashed #e1e1e1;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 10px
+}
+
+.qshare_box_left .qshare_main .qshare_title .qshare_title_icon {
+	background: url(/Images/sharecomment.png) 0 -80px no-repeat;
+	width: 37px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	top: -1px
+}
+
+.qshare_box_left .qshare_main .qshare_title .qshare_title_icon span {
+	display: none
+}
+
+.qshare_box_left .qshare_main .qshare_title h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 15px 0 50px;
+	width: 480px;
+	overflow: hidden;
+	line-height: 22px;
+	height: 22px;
+	color: #666;
+	letter-spacing: 1px
+}
+
+.qshare_box_left .qshare_main .qshare_title .qshare_time {
+	color: #999;
+	float: right;
+	width: 168px;
+	padding-top: 3px
+}
+
+.qshare_box_left .qshare_main .qshare_title .qshare_time span {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .qshare_main .qshare_content {
+	float: left;
+	width: 718px;
+	font-size: 14px;
+	text-indent: 28px;
+	line-height: 24px;
+	padding: 15px 0 15px 0;
+	word-wrap: break-word
+}
+
+.qshare_box_left .qshare_main .qshare_picshow {
+	width: 698px;
+	padding: 10px;
+	float: left;
+	background: #f7f7f7;
+	position: relative
+}
+
+.qshare_picshow .img_big,.main_pic .img_big li,.main_pic .img_big img {
+	width: 560px;
+	height: 420px;
+	display: block;
+	overflow: hidden;
+	float: left
+}
+
+.onload {
+	width: 16px;
+	height: 16px;
+	display: none;
+	overflow: hidden;
+	background: url(/Images/loading.gif);
+	position: absolute;
+	top: 202px;
+	left: 272px;
+	background-repeat: no-repeat
+}
+
+.qshare_picshow .img_small {
+	width: 100px;
+	height: 392px;
+	padding: 14px 5px;
+	float: right;
+	background-color: #fff
+}
+
+.qshare_picshow .img_small a {
+	width: 100px;
+	height: 25px;
+	display: block;
+	background: url(/Images/share.png) 0 -170px;
+	float: left
+}
+
+.qshare_picshow .img_small a.arrow_top {
+	background: url(/Images/share.png) 0 -170px
+}
+
+.qshare_picshow .img_small a.arrow_top_click {
+	background: url(/Images/share.png) 0 -220px
+}
+
+.qshare_picshow .img_small a.arrow_bottom {
+	background: url(/Images/share.png) 0 -195px
+}
+
+.qshare_picshow .img_small a.arrow_bottom_click {
+	background: url(/Images/share.png) 0 -245px
+}
+
+.qshare_picshow .menu {
+	width: 100px;
+	height: 342px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative
+}
+
+.qshare_picshow .menu ul {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.qshare_picshow .menu li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	display: block;
+	padding: 7px 0
+}
+
+.qshare_picshow .menu li img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	cursor: pointer
+}
+
+.qshare_picshow .img {
+	width: 320px
+}
+
+.qshare_picshow .img span {
+	width: 280px;
+	height: 240px;
+	padding: 20px 8px 10px 8px;
+	display: block;
+	float: left
+}
+
+.qshare_picshow .img span img {
+	width: 280px;
+	height: 240px;
+	display: block
+}
+
+.qshare_box_left .qshare_main .mood {
+	line-height: 25px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 15px
+}
+
+.qshare_box_left .qshare_main .mood .moodwm {
+	display: inline-block; *
+	display: inline;
+	zoom: 1
+}
+
+.qshare_box_left .qshare_main .mood .moodm {
+	float: left;
+	position: relative
+}
+
+.qshare_box_left .qshare_main .mood .moodm a {
+	min-width: 100px;
+	_width: 100px;
+	height: 25px;
+	float: left;
+	padding: 0 5px 0 30px;
+	background: #ca2a44 url(/Images/share.png) no-repeat -152px -224px;
+	color: #fff;
+	text-align: center
+}
+
+.qshare_box_left .qshare_main .mood .moodm a:hover {
+	text-decoration: none;
+	color: #fff
+}
+
+.qshare_box_left .qshare_main .mood .moodm span {
+	min-width: 50px;
+	float: left;
+	padding: 0 5px 0 30px;
+	background: #f2f2f2 url(/Images/share.png) no-repeat -152px -164px;
+	color: #666
+}
+
+.qshare_box_left .qshare_main .mood .moodm em {
+	font-weight: bold
+}
+
+.qshare_box_left .qshare_main .mood .moodm span em {
+	padding: 0 3px 0 0
+}
+
+.qshare_box_left .qshare_main .mood .tsed {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	color: #ca2a44;
+	background: url(/Images/share.png) no-repeat scroll -40px -110px;
+	position: absolute;
+	top: -28px;
+	left: 30px;
+	display: block
+}
+
+.qshare_box_left .qshare_main .mood .moodm .ts {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	color: #878787;
+	background: url(/Images/share.png) no-repeat scroll 0 -270px;
+	position: absolute;
+	top: -28px;
+	left: 30px;
+	display: none;
+	float: left
+}
+
+.qshare_box_left .qshare_main .qshare_moodandbaidushare {
+	float: left;
+	width: 718px;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+.qshare_box_left .qshare_main .qshare_moodandbaidushare .qshare_mood {
+	float: left;
+	width: 220px;
+	height: 28px;
+	display: inline;
+	margin-left: 116px
+}
+
+.qshare_box_left .qshare_main .qshare_moodandbaidushare .qshare_baidushare
+	{
+	float: left;
+	width: 200px;
+	display: inline;
+	height: 28px;
+	margin-left: 10px
+}
+
+.qshare_box_left .qshare_main .qshare_moodandbaidushare .qshare_link_comment
+	{
+	float: right;
+	width: 80px;
+	height: 28px;
+	margin-left: 10px;
+	text-align: right
+}
+
+.qshare_box_left .qshare_main .qshare_link_detail {
+	float: right;
+	width: 80px;
+	height: 22px;
+	text-align: right;
+	font-size: 14px
+}
+
+.qshare_box_left .qcomment_main {
+	width: 748px;
+	float: left;
+	background-color: #f8f8f8;
+	display: none
+}
+
+.qshare_box_left .qcomment_main .qcomment_main_topline {
+	background: url(/Images/sharecomment.png) 0 0 no-repeat;
+	width: 748px;
+	height: 7px;
+	line-height: 1px;
+	float: left;
+	background-color: #eee;
+	font-size: 1px
+}
+
+.qshare_box_left .qcomment_content {
+	width: 718px;
+	float: left;
+	padding: 15px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_tit {
+	width: 718px;
+	border-bottom: 1px solid #fff
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_tit h4 {
+	height: 22px;
+	line-height: 22px;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	letter-spacing: 1px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_tit h4 em {
+	font-size: 12px;
+	padding-left: 3px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box {
+	float: left;
+	width: 718px;
+	margin: 10px 0 0 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_content_box_usericon
+	{
+	float: left;
+	width: 67px;
+	height: 67px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content_box_usericon img {
+	width: 67px;
+	height: 67px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box {
+	float: left;
+	width: 646px;
+	margin-left: 5px;
+	display: inline;
+	color: #666;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_top
+	{
+	background: url(/Images/sharecomment.png) 0 -20px no-repeat;
+	float: left;
+	width: 626px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_top span
+	{
+	padding-right: 5px;
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_main
+	{
+	background: url(/Images/qcommentboxline.png) 0 0 repeat-y #fff;
+	float: left;
+	width: 616px;
+	line-height: 22px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 14px;
+	overflow: hidden;
+	text-indent: 28px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_bottom
+	{
+	background: url(/Images/sharecomment.png) 0 -60px no-repeat;
+	float: left;
+	width: 646px;
+	height: 7px;
+	line-height: 1px;
+	font-size: 1px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_foot
+	{
+	float: left;
+	width: 626px;
+	background: url(/Images/qcommentboxline.png) 0 0 repeat-y #fff;
+	padding-left: 20px;
+	height: 32px;
+	line-height: 32px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_foot ul
+	{
+	margin: 0;
+	padding: 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_foot li
+	{
+	float: left;
+	padding: 0 12px 0 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_foot li.time
+	{
+	width: 138px;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0
+}
+
+.qshare_box_left .xcomment_bottom_reply {
+	width: 639px;
+	float: left;
+	padding-left: 7px;
+	display: inline;
+	background: url(/Images/qcommentboxline.png) 0 0 repeat-y #fff;
+	overflow: hidden
+}
+
+.qshare_box_left .xcomment_bottom_reply .grayline {
+	width: 639px;
+	height: 10px;
+	float: left;
+	background: url("/Images/sharecomment.png") no-repeat scroll -7px -20px
+		transparent;
+	line-height: 10px
+}
+
+.qshare_box_left .xcomment_bottom_reply .reply_textbox {
+	float: left;
+	width: 614px;
+	padding-left: 13px;
+	overflow: hidden
+}
+
+.qshare_box_left .xcomment_bottom_reply .reply_textbox textarea {
+	width: 606px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	height: 40px;
+	font-size: 12px;
+	color: #666;
+	padding: 0 3px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.qshare_box_left .xcomment_bottom_reply .reply_textbox .reply_login {
+	float: left;
+	width: 612px;
+	height: 40px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e1e1e1
+}
+
+.qshare_box_left .xcomment_bottom_reply .reply_login a {
+	padding: 0 3px;
+	color: #000
+}
+
+.qshare_box_left .xcomment_bottom_reply .qcomment_box_reply_send {
+	float: left;
+	width: 614px;
+	padding: 10px 0 10px 13px
+}
+
+.qshare_box_left .xcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_left
+	{
+	float: left;
+	width: 530px;
+	height: 27px;
+	line-height: 27px;
+	text-align: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .xcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_left span
+	{
+	color: #ca2a44;
+	padding: 0 1px 0 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .xcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_right
+	{
+	float: right;
+	width: 68px;
+	height: 27px
+}
+
+.qshare_box_left .xcomment_reply_box {
+	width: 718px;
+	margin: 20px 0 20px 0;
+	float: left;
+	display: none
+}
+
+.qshare_box_left .xcomment_reply_box .reply_PageBox {
+	width: 718px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_PageBox span {
+	width: 150px;
+	height: 20px;
+	padding-top: 30px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_grayline {
+	float: left;
+	width: 718px;
+	height: 5px;
+	line-height: 1px;
+	font-size: 1px;
+	border-bottom: 1px solid #CCC
+}
+
+.goods-list-box .page_nav {
+	width: 980px;
+	height: 50px;
+	margin: 20px 0 0 0
+}
+
+.qshare_box_left .xcomment_reply_box .reply_PageBox .page_nav {
+	width: 560px;
+	height: 50px;
+	margin: 0;
+	float: right
+}
+
+.page_nav ul.pageUL {
+	float: right;
+	padding: 20px 5px 0 0
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list {
+	float: left;
+	width: 718px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item {
+	width: 718px;
+	padding: 10px 0;
+	border-bottom: 1px solid #e1e1e1
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_left
+	{
+	float: left;
+	width: 48px;
+	height: 44px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_left img
+	{
+	width: 44px;
+	height: 44px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right
+	{
+	float: right;
+	width: 660px;
+	color: #666
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_top
+	{
+	width: 660px;
+	height: 22px;
+	line-height: 22px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_top span
+	{
+	color: #666;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 6px 0 0;
+	color: #999
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_top em
+	{
+	float: right;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_m
+	{
+	width: 660px;
+	font-size: 12px;
+	padding: 5px 0;
+	line-height: 18px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_b
+	{
+	width: 660px;
+	height: 22px;
+	line-height: 22px;
+	color: #999
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_r_b span
+	{
+	float: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module
+	{
+	float: left;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 631px;
+	padding: 10px;
+	margin: 5px 0 0 0
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form
+	{
+	float: left;
+	width: 631px;
+	margin: 0;
+	padding: 0 0 10px 0
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form .item_form_textbox
+	{
+	float: left;
+	width: 606px;
+	overflow: hidden
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form .item_form_textbox textarea
+	{
+	width: 596px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	height: 40px;
+	font-size: 12px;
+	color: #666;
+	padding: 0 3px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form .item_form_closebt
+	{
+	background: url(/Images/sharecomment.png) -124px -86px no-repeat;
+	float: right
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form .item_form_closebt a
+	{
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	display: block
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_form .item_form_closebt a span
+	{
+	display: none
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_send
+	{
+	float: left;
+	width: 606px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_send .item_send_left
+	{
+	float: left;
+	width: 528px;
+	height: 27px;
+	line-height: 27px;
+	text-align: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_send .item_send_left span
+	{
+	color: #ca2a44;
+	padding: 0 1px 0 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .xcomment_reply_box .reply_list .reply_item .item_right .item_module .item_send .item_send_right
+	{
+	float: right;
+	width: 68px;
+	height: 27px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply
+	{
+	background: url(/Images/qcommentboxline.png) -6px 0 repeat-y #f8f8f8;
+	float: left;
+	width: 637px;
+	margin-left: 6px;
+	_margin-left: 3px;
+	display: none;
+	padding: 0 2px 0 1px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_box_reply_topbj
+	{
+	background: url(/Images/sharecomment.png) -7px -70px no-repeat;
+	float: left;
+	width: 637px;
+	height: 7px;
+	line-height: 1px;
+	font-size: 1px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module
+	{
+	float: left;
+	width: 607px;
+	margin: 0 15px 0 15px;
+	padding-bottom: 10px;
+	display: inline
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .grayline
+	{
+	border-bottom: 1px solid #e1e1e1
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form
+	{
+	float: left;
+	width: 607px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox
+	{
+	float: left;
+	width: 587px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox textarea
+	{
+	width: 578px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	height: 40px;
+	font-size: 12px;
+	color: #666;
+	padding: 0 3px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox .reply_login
+	{
+	width: 578px;
+	height: 40px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 3px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e1e1e1
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox .reply_login a
+	{
+	padding: 0 3px;
+	color: #000
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt
+	{
+	background: url(/Images/sharecomment.png) -124px -86px no-repeat;
+	float: right
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt a
+	{
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	display: block
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt a span
+	{
+	display: none
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_send
+	{
+	float: left;
+	width: 580px;
+	padding-right: 27px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_left
+	{
+	float: left;
+	width: 502px;
+	height: 27px;
+	line-height: 27px;
+	text-align: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_left span
+	{
+	color: #ca2a44;
+	padding: 0 1px 0 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_right
+	{
+	float: right;
+	width: 68px;
+	height: 27px
+}
+
+.reply_botton {
+	width: 68px;
+	height: 27px;
+	border: 0;
+	background: url(/Images/sharecomment.png) -40px -80px no-repeat;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer
+}
+
+.reply_unbotton {
+	width: 68px;
+	height: 27px;
+	border: 0;
+	background: url(/Images/share.png) 0 -300px no-repeat;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	cursor: default
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module
+	{
+	float: left;
+	width: 607px;
+	padding-bottom: 10px;
+	margin: 0 15px;
+	display: inline
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list
+	{
+	width: 607px;
+	padding: 10px 0;
+	border-bottom: 1px solid #e1e1e1
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_left
+	{
+	float: left;
+	width: 44px;
+	height: 44px
+}
+
+.qshare_box_left .qcomment_reply_list_left img {
+	width: 44px;
+	height: 44px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right
+	{
+	float: right;
+	width: 553px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_top
+	{
+	width: 553px;
+	height: 22px;
+	line-height: 22px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_top span
+	{
+	color: #666;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 6px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_top em
+	{
+	float: right;
+	color: #666;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_m
+	{
+	width: 553px;
+	font-size: 12px;
+	padding: 5px 0;
+	line-height: 18px;
+	word-wrap: break-word
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_b
+	{
+	width: 553px;
+	height: 22px;
+	line-height: 22px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_list_r_b span
+	{
+	float: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module
+	{
+	float: left;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 531px;
+	padding: 10px;
+	margin: 5px 0 0 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_more
+	{
+	padding: 10px 0 0 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form
+	{
+	float: left;
+	width: 531px;
+	margin: 0;
+	padding: 0 0 10px 0
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox
+	{
+	float: left;
+	width: 506px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_textbox textarea
+	{
+	width: 496px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	height: 40px;
+	font-size: 12px;
+	color: #666;
+	padding: 0 3px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt
+	{
+	background: url(/Images/sharecomment.png) -124px -86px no-repeat;
+	float: right
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt a
+	{
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	display: block
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_form .qcomment_reply_form_closebt a span
+	{
+	display: none
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_send
+	{
+	float: left;
+	width: 506px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_left
+	{
+	float: left;
+	width: 428px;
+	height: 27px;
+	line-height: 27px;
+	text-align: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_left span
+	{
+	color: #ca2a44;
+	padding: 0 1px 0 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .qcomment_content .qcomment_content_box .qcomment_box_reply .qcomment_reply_list_module .qcomment_reply_list .qcomment_reply_list_right .qcomment_reply_module .qcomment_box_reply_send .qcomment_reply_send_right
+	{
+	float: right;
+	width: 68px;
+	height: 27px
+}
+
+.qshare_box_left .qcomment_bottom_reply {
+	width: 718px;
+	float: left;
+	margin: 15px 15px 0 15px;
+	padding-bottom: 15px;
+	display: inline;
+	color: #666
+}
+
+.qshare_box_left .qcomment_bottom_reply .reply_textbox {
+	float: left;
+	width: 718px
+}
+
+.qshare_box_left .qcomment_bottom_reply .reply_textbox textarea {
+	width: 710px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	height: 40px;
+	font-size: 12px;
+	color: #666;
+	padding: 0 3px;
+	line-height: 20px;
+	overflow: hidden
+}
+
+.qshare_box_left .qcomment_bottom_reply .reply_textbox .reply_login {
+	float: left;
+	width: 716px;
+	height: 40px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-left: 1px solid #abadb3;
+	border-top: 1px solid #abadb3;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	text-align: center;
+	line-height: 40px;
+	background-color: #f1f1f1
+}
+
+.qshare_box_left .qcomment_bottom_reply .reply_login a {
+	padding: 0 3px;
+	color: #000
+}
+
+.qshare_box_left .qcomment_bottom_reply .qcomment_box_reply_send {
+	float: left;
+	width: 718px;
+	padding-top: 10px
+}
+
+.qshare_box_left .qcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_left
+	{
+	float: left;
+	width: 640px;
+	height: 27px;
+	line-height: 27px;
+	text-align: right;
+	padding-right: 10px
+}
+
+.qshare_box_left .qcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_left span
+	{
+	color: #ca2a44;
+	padding: 0 1px 0 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_left .qcomment_bottom_reply .qcomment_box_reply_send .qcomment_reply_send_right
+	{
+	float: right;
+	width: 68px;
+	height: 27px
+}
+
+.qshare_box_right .qshare_show {
+	background: url(/Images/qcommentboxline.png) -890px 0 repeat-y;
+	width: 213px;
+	padding: 15px 0;
+	padding-left: 15px;
+	border: 1px solid #ebb897;
+	height: 400px
+}
+
+.qshare_box_right .qshare_othershow {
+	position: absolute;
+	top: 440px;
+	background-color: #F63
+}
+
+.qshare_box_right .qshare_show_icon {
+	background: url(/Images/sharecomment.png) 0 -120px no-repeat;
+	width: 7px;
+	height: 11px;
+	float: left;
+	position: absolute;
+	left: -1px;
+	top: 20px;
+	z-index: 10
+}
+
+.qshare_box_right .qshare_show .qshare_show_user {
+	width: 200px;
+	float: left;
+	margin-bottom: 10px
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_face {
+	float: left;
+	width: 67px;
+	height: 67px
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_face img {
+	width: 67px;
+	height: 67px
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_info {
+	float: right;
+	width: 123px;
+	height: 67px
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_info span
+	{
+	color: #ca2a44;
+	padding: 0 3px
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_info h6 {
+	width: 123px;
+	color: #ca2a44;
+	height: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.qshare_box_right .qshare_show .qshare_show_user .qshare_user_info p {
+	font-size: 12px;
+	line-height: 18px
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro {
+	width: 200px;
+	float: left;
+	color: #666
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro dl {
+	margin: 0;
+	padding: 0
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro dt {
+	float: left;
+	width: 200px
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro dd {
+	float: left;
+	width: 200px
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro dt img {
+	height: 198px;
+	border: 1px solid #eee;
+	width: 198px
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro .qs_name {
+	height: 28px;
+	overflow: hidden;
+	padding: 10px 0;
+	line-height: 18px
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro a:link {
+	text-decoration: none;
+	color: #ca2a44
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro a:visited {
+	text-decoration: none;
+	color: #ca2a44
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro a:hover {
+	text-decoration: underline;
+	color: #f00
+}
+
+.qshare_box_right .qshare_show .qshare_show_pro a:active {
+	text-decoration: none;
+	color: #ca2a44
+}
+
+.pageDialogMain div .auth_box {
+	width: 240px;
+	padding: 0 0 0 15px
+}
+
+.pageDialogMain div .auth_box ul {
+	width: 240px;
+	float: left;
+	padding: 0 0 3px 0
+}
+
+.pageDialogMain div .auth_box ul li {
+	float: left;
+	width: 240px;
+	padding: 10px 0 0 0
+}
+
+.pageDialogMain div .auth_box ul li .text_yzm {
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+	border: 0;
+	border: 1px solid #888
+}
+
+.pageDialogMain div .auth_box ul li .yzwrong {
+	padding: 1px 0 5px 20px;
+	background: url(/Images/arrow_button.png) no-repeat -166px -75px;
+	color: #ca2a44;
+	width: 100px;
+	line-height: 20px;
+	float: left;
+	margin: 0 0 0 9px;
+	display: none
+}
+
+.pageDialogMain div .auth_box ul li img {
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 0 20px 0 0;
+	_margin: 0 10px 0 0
+}
+
+.pageDialogMain div .auth_box ul li a {
+	color: #3db8ff;
+	font-size: 14px
+}
+
+.pageDialogMain div .auth_box ul li .ok {
+	background: url(/Images/arrow_button.png) 0 -612px;
+	width: 66px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+	border: 0
+}
+
+.bdsharew {
+	padding-left: 30px;
+	height: 25px;
+	overflow: hidden;
+	float: left
+}
+
+.bdsharew a {
+	float: left
+}
+
+.bdshare_t em {
+	float: left;
+	line-height: 14px;
+	padding: 0;
+	margin: 6px 0 0 0; *
+	margin: 8px 0 0 0;
+	_margin: 6px 0 0 0
+}
+
+.clear {
+	clear: both
+}
+
+.qshare_box_right .otherUsers {
+	background: url(/Images/boxbg.png) repeat-y;
+	padding: 10px 0 25px 15px;
+	font-size: 12px;
+	display: inline-block;
+	width: 215px
+}
+
+.qshare_box_right .otherUsers span {
+	color: #666;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.qshare_box_right .otherUsers ul.userInfo {
+	margin-top: 10px
+}
+
+.qshare_box_right .otherUsers ul.userInfo li {
+	clear: both
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd {
+	float: left;
+	line-height: 21px;
+	margin: 10px 4px;
+	display: inline
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd img {
+	width: 67px;
+	height: 67px
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd h3 {
+	font-size: 14px;
+	color: #ca2a44;
+	font-family: Tahoma, Geneva, sans-serif
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd h4 {
+	color: #66666;
+	font-size: 12px
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd a.ckxq {
+	display: block;
+	background: url(/Images/btn_03.png);
+	width: 83px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #66666
+}
+
+.qshare_box_right .otherUsers ul.userInfo li dd a.ckxq:hover {
+	text-decoration: none
+}

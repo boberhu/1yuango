@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.tech.pojo">
+	<class
+		name="Role"
+		table="CORE_ROLE"
+	>
+		<id
+			name="id"
+			type="java.lang.Long"
+			column="ROLE_ID"
+		>
+			<generator class="native"/>
+		</id>
+		<property
+			name="name"
+			column="NAME"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="description"
+			column="DESCRIPTION"
+			type="string"
+			not-null="false"
+			length="250"
+		/>
+		<set
+			name="admins"
+			table="CORE_USER_ROLE"
+			inverse="true"
+		>
+			<key column="ROLE_ID"/>
+			<many-to-many column="ADMIN_ID" class="com.tech.pojo.Admin"/>
+		</set>
+		<set
+			name="functions"
+			table="CORE_ROLE_FUNCTION"
+			lazy="false"
+		>
+			<key column="ROLE_ID"/>
+			<many-to-many column="FUNCTION_ID" class="com.tech.pojo.Function"/>
+		</set>
+
+
+	</class>	
+</hibernate-mapping>

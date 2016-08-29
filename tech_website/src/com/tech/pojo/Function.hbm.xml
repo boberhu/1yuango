@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.tech.pojo">
+	<class
+		name="Function"
+		table="CORE_FUNCTION"
+		>
+		<id
+			name="id"
+			type="java.lang.Long"
+			column="FUNCTION_ID"
+			>
+			<generator class="native"/>
+		</id>
+		<property
+			name="name"
+			column="NAME"
+			type="string"
+			not-null="false"
+			length="100"
+			/>
+		<property
+			name="url"
+			column="URL"
+			type="string"
+			not-null="false"
+			length="200"
+			/>
+		<property
+			name="type"
+			column="URL_TYPE"
+			type="integer"
+			not-null="true"
+			length="2"
+			/>
+		<property
+			name="funcs"
+			column="FUNCS"
+			type="string"
+			not-null="false"
+			/>
+		<property
+			name="description"
+			column="DESCRIPTION"
+			type="string"
+			not-null="false"
+			length="250"
+			/>
+		<property
+			name="priority"
+			column="PRIORITY"
+			type="integer"
+			not-null="true"
+			length="10"
+			/>
+		<property
+			name="menu"
+			column="IS_MENU"
+			type="java.lang.Boolean"
+			not-null="true"
+			/>
+		<property
+			name="active"
+			column="IS_ACTIVE"
+			type="java.lang.Boolean"
+			not-null="true"
+			/>
+		<many-to-one
+			name="parent"
+			column="PARENT_ID"
+			class="Function"
+			not-null="false"
+			>
+		</many-to-one>
+		<set
+			name="admins"
+			table="CORE_ADMIN_FUNCTION"
+			inverse="true"
+			>
+			<key column="FUNCTION_ID"/>
+			<many-to-many column="ADMIN_ID" class="com.tech.pojo.Admin"/>
+		</set>
+		<set
+			name="roles"
+			table="CORE_ROLE_FUNCTION"
+			inverse="true"
+			>
+			<key column="FUNCTION_ID"/>
+			<many-to-many column="ROLE_ID" class="com.tech.pojo.Role"/>
+		</set>
+		<!-- <set name="child" inverse="true" cascade="all,delete" sort="com.tech.util.PriorityComparator">
+			<key column="PARENT"/>
+			<one-to-many class="Function"/>
+		</set> -->
+	</class>	
+</hibernate-mapping>

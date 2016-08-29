@@ -1,0 +1,1078 @@
+@charset "utf-8"; 
+
+.share_main {
+	width: 980px
+}
+
+.share_banner {
+	width: 980px;
+	height: 100px;
+	background: url(/Images/share_banner.png) no-repeat
+}
+
+.share_banner a {
+	width: 180px;
+	height: 41px;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(/Images/share.png) 0 0;
+	float: left;
+	margin: 40px 0 0 780px;
+	_margin: 40px 0 0 390px
+}
+
+.share_select {
+	width: 980px;
+	height: 26px;
+	float: left;
+	background: #f7f7f7
+}
+
+.share_select ul {
+	width: 354px;
+	float: left
+}
+
+.share_select ul li {
+	width: 117px;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #fff
+}
+
+.share_select ul li a {
+	width: 117px;
+	height: 20px;
+	line-height: 20px; *
+	line-height: 24px;
+	_line-height: 20px;
+	color: #fff;
+	display: block;
+	overflow: hidden;
+	background: #3db8ff
+}
+
+.share_select ul li a:hover {
+	text-decoration: none;
+	background: #f16501;
+	color: #fff
+}
+
+.share_select ul li .a_click {
+	width: 117px;
+	height: 26px;
+	line-height: 20px; *
+	line-height: 26px;
+	color: #fff;
+	display: block;
+	background: url(/Images/share.png) no-repeat 0 -143px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: -1px 0 0 0; *
+	margin: -1px 0 0 0
+}
+
+.share_select ul li .a_click:hover {
+	background: url(/Images/share.png) no-repeat 0 -143px
+}
+
+.share_select p {
+	width: 596px;
+	height: 20px;
+	color: #fff;
+	text-align: right;
+	float: right;
+	background: #3db8ff;
+	padding: 0 30px 0 0
+}
+
+.share_select p em {
+	font-weight: bold;
+	padding: 0 3px
+}
+
+.share_content {
+	width: 964px;
+	float: left;
+	background: #f7f7f7;
+	padding: 8px
+}
+
+.share_content_left,.share_content .goods_message {
+	width: 230px;
+	float: left
+}
+
+.share_content .goods_message {
+	width: 226px;
+	padding: 1px;
+	border: 1px solid #ca2a44;
+	float: left;
+	background: #fff
+}
+
+.share_content .goods_message h3 {
+	width: 216px;
+	height: 29px;
+	line-height: 29px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 0 0 10px;
+	background: url(/Images/share.png) 0 -80px
+}
+
+.share_content .goods_message dl {
+	width: 182px;
+	padding: 22px
+}
+
+.share_content .goods_message dl dt {
+	width: 182px;
+	padding: 0 0 3px 0
+}
+
+.share_content .goods_message dl dt a,.share_content .goods_message dl dt a img
+	{
+	width: 180px;
+	height: 180px;
+	display: block;
+	overflow: hidden
+}
+
+.share_content .goods_message dl dt a {
+	border: 1px solid #eee;
+	color: #666
+}
+
+.share_content .goods_message dl dt a:hover {
+	border: 1px solid #ca2a44
+}
+
+.share_content .goods_message dl dd {
+	width: 182px;
+	padding: 5px 0 0 0;
+	color: #999
+}
+
+.share_content .goods_message dl dd.name a {
+	width: 182px;
+	height: 40px;
+	line-height: 20px;
+	font-weight: bold;
+	display: block;
+	overflow: hidden
+}
+
+.share_content .goods_message dl dd.name a span {
+	color: #ca2a44
+}
+
+.share_content .goods_rec {
+	width: 226px;
+	padding: 1px;
+	border: 1px solid #dadada;
+	margin: 5px 0 0 0;
+	float: left;
+	background: #fff
+}
+
+.share_content .goods_rec h3 {
+	width: 216px;
+	height: 29px;
+	line-height: 29px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #666;
+	padding: 0 0 0 10px;
+	background: url(/Images/share.png) 0 -45px
+}
+
+.share_content .goods_rec ul {
+	width: 182px;
+	padding: 22px;
+	float: left
+}
+
+.share_content .goods_rec ul li {
+	width: 182px;
+	float: left;
+	padding: 5px 0 0 0
+}
+
+.share_content .goods_rec ul li.pic {
+	width: 120px;
+	padding: 0 31px
+}
+
+.share_content .goods_rec ul li.pic a,.share_content .goods_rec ul li.pic a img
+	{
+	width: 120px;
+	height: 120px;
+	display: block;
+	overflow: hidden
+}
+
+.share_content .goods_rec ul li.name a {
+	width: 182px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	overflow: hidden
+}
+
+.share_content .goods_rec ul li.num {
+	text-align: center;
+	color: #999
+}
+
+.share_content .goods_rec ul li.num em {
+	padding: 0 3px;
+	color: #ca2a44;
+	font-weight: bold
+}
+
+.share_content .goods_rec ul li.gobuy a {
+	background: url(/Images/index.png) -100px -240px;
+	display: block;
+	height: 24px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 93px;
+	text-indent: -9999px
+}
+
+.share_content .goods_rec ul li.gobuy a:hover {
+	background: url(/Images/index.png) 0 -240px
+}
+
+.share_content .goods_rec .border {
+	width: 220px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #eee;
+	clear: both
+}
+
+.share_content .share_content_right {
+	width: 728px;
+	float: right;
+	border: 1px solid #dadada;
+	background: #fff;
+	padding: 0 0 15px 0
+}
+
+.share_content .share_content_right h3 {
+	width: 708px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #666;
+	padding: 0 0 0 20px;
+	background: url(/Images/share.png) 0 -45px
+}
+
+.share_content .share_content_right h3 p {
+	width: 600px;
+	float: left
+}
+
+.share_content .share_content_right h3 span.time {
+	padding: 0 10px;
+	color: #999;
+	font-size: 12px;
+	font-weight: normal
+}
+
+.share_content .share_content_right h3 span.award {
+	width: 32px;
+	height: 32px;
+	display: block;
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(/Images/ten1.png);
+	margin: -1px 10px 0 0
+}
+
+.share_content .share_content_right .share_content_main {
+	width: 700px;
+	padding: 0 14px;
+	float: left
+}
+
+.share_content .share_content_right .share_content_main p.message {
+	width: 700px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #666;
+	padding: 20px 0;
+	text-indent: 28px;
+	overflow: hidden;
+	word-wrap: break-word
+}
+
+.main_pic {
+	width: 680px;
+	padding: 10px;
+	float: left;
+	background: #f7f7f7;
+	position: relative
+}
+
+.main_pic .img_big,.main_pic .img_big li,.main_pic .img_big img {
+	width: 560px;
+	height: 420px;
+	display: block;
+	overflow: hidden;
+	float: left
+}
+
+.onload {
+	width: 16px;
+	height: 16px;
+	display: none;
+	overflow: hidden;
+	background: url(/Images/loading.gif);
+	position: absolute;
+	top: 202px;
+	left: 272px;
+	background-repeat: no-repeat
+}
+
+.main_pic .img_small {
+	width: 100px;
+	height: 392px;
+	padding: 14px 5px;
+	float: right;
+	background-color: #fff
+}
+
+.main_pic .img_small a {
+	width: 100px;
+	height: 25px;
+	display: block;
+	background: url(/Images/share.png) 0 -170px;
+	float: left
+}
+
+.main_pic .img_small a.arrow_top {
+	background: url(/Images/share.png) 0 -170px
+}
+
+.main_pic .img_small a.arrow_top_click {
+	background: url(/Images/share.png) 0 -220px
+}
+
+.main_pic .img_small a.arrow_bottom {
+	background: url(/Images/share.png) 0 -195px
+}
+
+.main_pic .img_small a.arrow_bottom_click {
+	background: url(/Images/share.png) 0 -245px
+}
+
+.main_pic .menu {
+	width: 100px;
+	height: 342px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative
+}
+
+.main_pic .menu ul {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.main_pic .menu li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	display: block;
+	padding: 7px 0
+}
+
+.main_pic .menu li img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	cursor: pointer
+}
+
+.main_pic .img {
+	width: 320px
+}
+
+.main_pic .img span {
+	width: 280px;
+	height: 240px;
+	padding: 20px 8px 10px 8px;
+	display: block;
+	float: left
+}
+
+.main_pic .img span img {
+	width: 280px;
+	height: 240px;
+	display: block
+}
+
+.share_content_main .mood {
+	width: 500px;
+	padding: 20px 0 0 214px;
+	height: 33px;
+	line-height: 33px;
+	float: left;
+	position: relative
+}
+
+.share_content_main .mood .tsed {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	color: #ca2a44;
+	background: url(/Images/share.png) no-repeat scroll -40px -110px;
+	position: absolute;
+	top: -8px;
+	right: 346px;
+	display: none
+}
+
+.share_content_main .mood .ts {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	color: #878787;
+	background: url(/Images/share.png) no-repeat scroll 0 -270px;
+	position: absolute;
+	top: -8px;
+	right: 346px;
+	display: none
+}
+
+.share_content_main .mood a {
+	min-width: 100px;
+	_width: 100px;
+	height: 33px;
+	display: block;
+	float: left;
+	padding: 0 5px 0 30px;
+	background: #ca2a44 url(/Images/share.png) no-repeat -152px -220px;
+	color: #fff;
+	text-align: center
+}
+
+.share_content_main .mood a:hover {
+	text-decoration: none;
+	color: #fff
+}
+
+.share_content_main .mood span {
+	min-width: 50px;
+	display: block;
+	float: left;
+	padding: 0 5px 0 30px;
+	background: #f2f2f2 url(/Images/share.png) no-repeat -152px -160px;
+	color: #666
+}
+
+.share_content_main .mood em {
+	font-weight: bold
+}
+
+.share_content_main .mood span em {
+	padding: 0 3px 0 0
+}
+
+.share_content_main .share_other {
+	width: 400px;
+	padding: 15px 0;
+	float: right;
+	border-bottom: 1px solid #eee;
+	margin: 0 0 15px 0
+}
+
+.share_content_main .share_other div {
+	float: right
+}
+
+.share_content_main .discuss,.share_content_main .discuss ul.show_message li
+	{
+	width: 700px;
+	float: left;
+	padding: 0 0 10px 0
+}
+
+.share_content_main .discuss {
+	margin: 0 0 20px 0
+}
+
+.share_content_main .discuss ul.show_message {
+	width: 700px;
+	border-bottom: 1px solid #eee;
+	float: left;
+	padding: 0 0 5px 0;
+	margin: 0 0 15px 0
+}
+
+.share_content_main .discuss ul li.name {
+	color: #999
+}
+
+.share_content_main .discuss ul li.content {
+	color: #666;
+	font-size: 14px;
+	padding: 0 0 0 5px;
+	width: 658px;
+	margin-left: 5px;
+	word-wrap: break-word
+}
+
+.share_content_main .discuss ul li.quote div {
+	width: 670px;
+	height: 8px;
+	text-indent: -9999px;
+	background: url(/Images/messagebg.jpg) no-repeat;
+	float: left;
+	margin: 0;
+	overflow: hidden
+}
+
+.share_content_main .discuss ul li.quote p {
+	width: 658px;
+	background: #f8f8f8;
+	color: #b1b1b1;
+	padding: 5px;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	overflow: hidden
+}
+
+.share_content_main .discuss ul li.quote {
+	width: 670px;
+	margin: 0 0 0 10px
+}
+
+.share_content_main .discuss ul li.time {
+	color: #b2b2b2;
+	padding-top: 8px
+}
+
+.share_content_main .discuss ul li.time span {
+	width: 150px;
+	display: block;
+	float: left
+}
+
+.share_content_main .discuss ul li.time a {
+	width: 25px;
+	display: none;
+	float: right;
+	color: #333
+}
+
+.share_content_main .discuss ul li.time a:hover {
+	color: #ca2a44
+}
+
+.share_content_main .text_message {
+	width: 680px;
+	float: left;
+	margin: 0 0 0 10px;
+	_margin: 0 0 0 5px
+}
+
+.share_content_main .text_message .not_login,.share_content_main .text_message .had_login
+	{
+	width: 680px;
+	border-right: 1px solid #e3e9ef;
+	border-bottom: 1px solid #e3e9ef;
+	border-top: 1px solid #abadb3;
+	border-left: 1px solid #abadb3
+}
+
+.share_content_main .text_message .not_login p {
+	width: 680px;
+	height: 125px;
+	line-height: 125px;
+	color: #767676;
+	text-align: center;
+	background: #f0f0f0
+}
+
+.share_content_main .text_message .not_login p a {
+	padding: 0 2px;
+	color: #333
+}
+
+.share_content_main .text_message .not_login p a:hover {
+	color: #ca2a44
+}
+
+.share_content_main .text_message .submit {
+	width: 200px;
+	height: 27px;
+	line-height: 27px;
+	padding: 10px 0 0 389px;
+	float: right
+}
+
+.share_content_main .text_message .submit p,.share_content_main .text_message .submit input
+	{
+	float: left;
+	color: #929292
+}
+
+.share_content_main .text_message .submit p em {
+	color: #ca2a44;
+	padding: 0 3px
+}
+
+.share_content_main .text_message .submit input,.share_content_main .text_message .submit input_click
+	{
+	width: 68px;
+	height: 27px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	background: url(/Images/arrow_button.png) 0 -230px
+}
+
+.share_content_main .text_message .submit .input_click {
+	cursor: default;
+	background: url(/Images/share.png) 0 -300px
+}
+
+.share_content_main .text_message .had_login {
+	padding: 5px;
+	width: 670px;
+	float: left
+}
+
+.share_content_main .text_message .reply {
+	width: 670px;
+	border: 1px solid #eee;
+	background: #f7f7f7
+}
+
+.share_content_main .text_message .reply div {
+	width: 650px;
+	padding: 3px 10px;
+	float: left
+}
+
+.share_content_main .text_message .reply div p {
+	float: left;
+	color: #b2b2b2
+}
+
+.share_content_main .text_message .reply div a {
+	width: 11px;
+	height: 9px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(/Images/arrow_button.png) -168px -380px;
+	float: right;
+	margin: 4px 0 0 0
+}
+
+.share_content_main .text_message .reply p.content {
+	padding: 0 10px 3px 10px;
+	width: 650px
+}
+
+.share_content_main .text_message textarea {
+	border: 0;
+	font-size: 14px;
+	max-height: 200px;
+	max-width: 650px;
+	min-height: 95px;
+	_height: 95px;
+	overflow: hidden;
+	width: 650px;
+	display: block;
+	padding: 0 10px;
+	margin: 5px 0;
+	line-height: 20px
+}
+
+.share_list {
+	width: 980px;
+	padding: 0 0 20px 0;
+	float: left;
+	background: #f7f7f7
+}
+
+.goods_share_list ul {
+	width: 980px;
+	float: left
+}
+
+.goods_share_list .share_list_content {
+	width: 229px;
+	position: relative;
+	float: left;
+	margin: 10px 9px 0 5px;
+	_margin: 0 5px 0 5px;
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 1px;
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+	filter: progid : DXImageTransform .   Microsoft .  
+		dropshadow(OffX =   2, OffY =   3, Color =   #16000000, Positive =  
+		true)
+}
+
+.goods_share_list .hover {
+	border-color: #6e6e6e
+}
+
+.goods_share_list dl {
+	width: 229px;
+	display: block;
+	float: left;
+	padding: 5px 0 0 0
+}
+
+.goods_share_list dl dd {
+	width: 215px;
+	display: block;
+	float: left;
+	padding: 0 7px;
+	overflow: hidden
+}
+
+.goods_share_list dl dt {
+	width: 220px;
+	padding: 0 4px 0 5px;
+	display: block;
+	float: left;
+	position: relative
+}
+
+.goods_share_list dl dt a.pic,.goods_share_list dl dt a img {
+	width: 220px;
+	display: block
+}
+
+.goods_share_list dl dd.time {
+	width: 205px;
+	color: #999;
+	padding: 5px 7px;
+	border-bottom: 1px solid #ededed;
+	margin: 0 0 0 5px;
+	_margin: 0 0 0 3px
+}
+
+.goods_share_list dl dd.title {
+	padding: 5px 7px
+}
+
+.goods_share_list dl dd {
+	word-wrap: break-word
+}
+
+.goods_share_list dl dd.title a {
+	color: #333;
+	word-wrap: break-word
+}
+
+.goods_share_list dl dd.title a:hover {
+	color: #ca2a44
+}
+
+.goods_share_list dl dd.content {
+	padding: 0 7px 10px 7px;
+	line-height: 20px;
+	color: #999;
+	text-indent: 27px
+}
+
+.goods_share_list dl dd.message,.goods_share_list ul li dl dd.text_message
+	{
+	background: #f5f5f5
+}
+
+.goods_share_list dd.message span.smile {
+	min-width: 80px;
+	max-width: 103px;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+	padding: 0 5px 0 22px;
+	background: url(/Images/share.png) no-repeat -158px -120px;
+	color: #666
+}
+
+.goods_share_list dd.message span.much {
+	background: url(/Images/share.png) no-repeat scroll -158px -165px;
+	color: #666;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+	min-width: 65px;
+	max-width: 65px;
+	overflow: hidden;
+	padding: 0 0 0 20px;
+	color: #333
+}
+
+.goods_share_list dd.message span.much a:hover {
+	color: #ca2a44
+}
+
+.goods_share_list dd.message a em {
+	font-weight: bold;
+	font-family: arial
+}
+
+.goods_share_list dd.text_message {
+	padding-bottom: 15px;
+	padding-top: 5px;
+	line-height: 20px;
+	color: #666
+}
+
+.goods_share_list dd.text_message em {
+	color: #555
+}
+
+div.smile_message {
+	min-width: 100px;
+	height: 22px;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	display: none
+}
+
+.goods_share_list .share_list_content dl dt div a.smile_click {
+	width: 25px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	display: block;
+	float: left;
+	padding: 0 5px 0 22px;
+	background: #ff6000 url(/Images/share.png) no-repeat -152px -270px
+}
+
+.goods_share_list .share_list_content dl dt div a.smile_click:hover,.goods_share_list ul li .share_list_content dl dt div a.much_click
+	{
+	text-decoration: none
+}
+
+.goods_share_list .share_list_content dl dt div a.much_click {
+	background: #eee url(/Images/share.png) no-repeat -155px -165px;
+	color: #333;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	float: left;
+	min-width: 20px;
+	padding: 0 5px 0 29px
+}
+
+.goods_share_list .share_list_content dl dt div.ts {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	color: #ca2a44;
+	background: url(/Images/share.png) no-repeat scroll -40px -110px;
+	position: absolute;
+	bottom: 30px;
+	right: 16px
+}
+
+.goods_share_list .share_list_content dl dt div.tsed {
+	width: 104px;
+	height: 27px;
+	line-height: 23px;
+	text-indent: 5px;
+	background: url(/Images/share.png) no-repeat scroll 0 -270px;
+	color: #878787;
+	position: absolute;
+	bottom: 30px;
+	right: 16px
+}
+
+.goods_share_list .share_list_content h3 {
+	width: 37px;
+	height: 36px;
+	position: absolute;
+	top: -6px;
+	left: 4px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(/Images/share.png) -100px -300px
+}
+
+.goods-list-box .page_nav {
+	width: 980px;
+	height: 50px;
+	margin: 20px 0 0 0
+}
+
+.page_nav ul.pageUL {
+	float: right;
+	padding: 20px 5px 0 0
+}
+
+.page_nav ul.pageUL li {
+	float: left;
+	list-style: none outside none;
+	text-align: center;
+	margin: 0 5px
+}
+
+.page_nav li {
+	float: left;
+	margin: 0;
+	list-style: none outside none;
+	text-align: center
+}
+
+.page_nav li.total_page {
+	color: #333;
+	padding-right: 20px;
+	line-height: 38px
+}
+
+.page_nav li.total_page i {
+	color: #F00;
+	font-style: normal
+}
+
+.page_nav li.curr_page {
+	width: 25px;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	background-color: #ffede1;
+	color: #f50;
+	font-weight: bold;
+	border: 1px solid #fd6d01
+}
+
+.page_nav li a {
+	width: 25px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #dedede
+}
+
+.page_nav li a:hover {
+	color: #fd6d01;
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	border: 1px solid #fd6d01;
+	text-decoration: none
+}
+
+.page_nav li.prev_page a {
+	background: url(/Images/arrow_button.png) -171px -13px no-repeat;
+	width: 46px;
+	padding-right: 10px;
+	white-space: nowrap;
+	text-indent: 12px;
+	display: block
+}
+
+.page_nav li.next_page a {
+	background: url(/Images/arrow_button.png) right 5px no-repeat;
+	width: 46px;
+	padding: 0 10px 0 0;
+	white-space: nowrap
+}
+
+.page_nav li.prev_page a:hover,.page_nav li.next_page a:hover {
+	width: 46px;
+	padding: 0 10px 0 0;
+	white-space: nowrap
+}
+
+.pageDialogMain div .auth_box {
+	width: 240px;
+	padding: 0 0 0 15px
+}
+
+.pageDialogMain div .auth_box ul {
+	width: 240px;
+	float: left;
+	padding: 0 0 3px 0
+}
+
+.pageDialogMain div .auth_box ul li {
+	float: left;
+	width: 240px;
+	padding: 10px 0 0 0
+}
+
+.pageDialogMain div .auth_box ul li .text_yzm {
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+	border: 0;
+	border: 1px solid #888
+}
+
+.pageDialogMain div .auth_box ul li .yzwrong {
+	padding: 1px 0 5px 20px;
+	background: url(/Images/arrow_button.png) no-repeat -166px -75px;
+	color: #ca2a44;
+	width: 100px;
+	line-height: 20px;
+	float: left;
+	margin: 0 0 0 9px;
+	display: none
+}
+
+.pageDialogMain div .auth_box ul li img {
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 0 20px 0 0;
+	_margin: 0 10px 0 0
+}
+
+.pageDialogMain div .auth_box ul li a {
+	color: #3db8ff;
+	font-size: 14px
+}
+
+.pageDialogMain div .auth_box ul li .ok {
+	background: url(/Images/arrow_button.png) 0 -612px;
+	width: 66px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+	border: 0
+}

@@ -1,0 +1,1020 @@
+@charset "utf-8"; 
+
+.transfer-accounts-con {
+	width: 600px;
+	padding-top: 20px;
+	margin: 0
+}
+
+.transfer-accounts-con li {
+	float: left;
+	width: 600px;
+	font-size: 14px;
+	padding: 10px 0;
+	line-height: 30px;
+	overflow: hidden
+}
+
+.transfer-accounts-con li.u-accounts {
+	padding: 0
+}
+
+.transfer-accounts-con li.u-accounts label {
+	position: relative;
+	_top: 2px
+}
+
+.transfer-accounts-con li b {
+	font-size: 18px
+}
+
+.transfer-accounts-con li em {
+	margin-right: 5px
+}
+
+.transfer-accounts-con li label,.transfer-accounts-con li input,.transfer-accounts-con li em,.transfer-accounts-con li span i
+	{
+	float: left
+}
+
+.transfer-accounts-con li label {
+	width: 200px;
+	display: block;
+	text-align: right
+}
+
+.transfer-accounts-con li p {
+	clear: both;
+	display: block;
+	padding-left: 200px
+}
+
+.transfer-accounts-con li p a {
+	text-decoration: underline
+}
+
+.z-receivables {
+	letter-spacing: 1px
+}
+
+.transfer-accounts-con li input {
+	width: 192px;
+	height: 22px;
+	line-height: 22px;
+	padding: 3px;
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	color: #bbb;
+	margin-right: 5px;
+	font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", Arial
+}
+
+.transfer-accounts-con li input.z-money {
+	width: 130px
+}
+
+.transfer-accounts-con li a.bluebut,.transfer-accounts-con li a.graybut
+	{
+	display: block;
+	width: 88px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 200px
+}
+
+.transfer-accounts-con li a.graybut {
+	cursor: default
+}
+
+.transfer-accounts-con li a.graybut:hover {
+	background: #f3f3f3;
+	border: #cfcfcf 1px solid;
+	color: #999
+}
+
+.transfer-accounts-con li span {
+	color: #ca2a44
+}
+
+.transfer-accounts-con li span i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(/Images/new-admin.png?v=150421) no-repeat;
+	background-position: -144px -99px;
+	position: relative;
+	top: 7px;
+	_top: 5px;
+	margin-right: 3px;
+	_margin-right: 0
+}
+
+.transfer-accounts-list dt {
+	height: 23px;
+	padding-top: 5px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	background: #f9f9f9;
+	color: #999;
+	overflow: hidden
+}
+
+.transfer-accounts-list dd {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #eee;
+	color: #666
+}
+
+.transfer-accounts-list span {
+	float: left;
+	display: block;
+	height: 38px;
+	padding: 0 5px;
+	word-break: break-all;
+	overflow: hidden
+}
+
+.transfer-accounts-list span.w140 {
+	width: 140px
+}
+
+.transfer-accounts-list span.w140 a {
+	color: #43b6ff
+}
+
+.transfer-accounts-list span.w140 a:hover {
+	color: #ca2a44;
+	text-decoration: underline
+}
+
+.transfer-accounts-list span.w110 {
+	width: 110px
+}
+
+.transfer-accounts-list span.w90 {
+	width: 90px
+}
+
+.transfer-accounts-list dd span.w110 {
+	font-weight: bold
+}
+
+.confirmation-box {
+	width: 362px;
+	margin: 0 auto;
+	padding-top: 20px
+}
+
+.m-confirmation {
+	width: 362px;
+	margin: 0 auto;
+	line-height: 30px
+}
+
+.m-confirmation dt {
+	font-size: 18px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-bottom: 8px
+}
+
+.m-confirmation dd {
+	padding-left: 35px;
+	font-size: 16px
+}
+
+.m-confirmation dd span {
+	float: left;
+	color: #bbb
+}
+
+.m-confirmation dd cite {
+	float: left;
+	width: 240px;
+	display: block;
+	word-wrap: break-word;
+	word-break: normal
+}
+
+.identifying-code {
+	clear: both;
+	width: 327px;
+	padding-top: 25px;
+	padding-left: 35px
+}
+
+.identifying-code dt {
+	font-size: 14px;
+	margin-bottom: -8px;
+	text-align: left
+}
+
+.identifying-code dt span {
+	margin: 0 5px
+}
+
+.identifying-code dt a {
+	color: #999;
+	text-decoration: underline
+}
+
+.identifying-code dd {
+	clear: both;
+	padding-top: 15px
+}
+
+.identifying-code dd input {
+	width: 139px;
+	height: 22px;
+	line-height: 22px;
+	padding: 2px 3px 4px 5px;
+	_padding: 3px 3px 3px 5px;
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	color: #bbb;
+	font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", Arial;
+	float: left
+}
+
+.identifying-code dd a {
+	float: left;
+	display: block;
+	width: 110px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin-left: 4px;
+	padding: 0;
+	background: #ca2a44;
+	border: 1px solid #ca2a44;
+	color: #fff;
+	border-radius: 2px;
+	overflow: hidden
+}
+
+.identifying-code dd a:hover {
+	color: #fff;
+	background: #b61a36;
+	border: 1px solid #b61a36
+}
+
+.identifying-code dd a.resendBtn {
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	color: #bbb;
+	cursor: default
+}
+
+.identifying-code dd span a {
+	height: 35px;
+	line-height: 35px; *
+	line-height: 33px;
+	_line-height: 35px;
+	background: #ca2a44;
+	border: 1px solid #ca2a44;
+	font-size: 14px;
+	margin-left: 0
+}
+
+.identifying-code dd em {
+	padding-left: 5px;
+	line-height: 35px;
+	color: #d00
+}
+
+.binding-box {
+	width: 380px;
+	margin: 0 auto;
+	font-size: 14px;
+	padding-top: 30px
+}
+
+.binding-box p {
+	display: block;
+	font-size: 18px
+}
+
+.binding-box p i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(/Images/cart-arrow.gif?v=141217) no-repeat;
+	background-position: -33px -27px;
+	float: left;
+	position: relative;
+	top: 3px; *
+	top: 7px;
+	_top: -3px;
+	margin-right: 6px;
+	_margin-right: 2px
+}
+
+.binding-box span {
+	display: block;
+	margin: 5px 0 20px 26px
+}
+
+.binding-box a {
+	display: block;
+	width: 137px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 26px
+}
+
+.last {
+	color: #666
+}
+
+.last ul li {
+	background: #fcfcfc;
+	border: #f5f5f5 1px solid;
+	height: 57px;
+	line-height: 45px;
+	padding-left: 13px
+}
+
+.last ul li h3 {
+	font-size: 14px;
+	display: inline;
+	font-weight: normal
+}
+
+.last ul li b {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	margin-left: 5px
+}
+
+.last li {
+	font-size: 14px
+}
+
+.last li b {
+	top: 3px;
+	margin-right: 5px
+}
+
+.last li a {
+	position: relative;
+	top: -2px;
+	left: 10px
+}
+
+.type {
+	height: 28px;
+	line-height: 28px;
+	background: #f5f5f5;
+	border-top: #d6d6d6 1px solid;
+	border-bottom: #d6d6d6 1px solid;
+	padding-left: 10px
+}
+
+.type a {
+	color: #666;
+	float: left;
+	display: block;
+	width: 71px;
+	height: 29px;
+	text-align: center
+}
+
+.type a.annal1 {
+	background: #fcfcfc;
+	border-left: #d6d6d6 1px solid;
+	border-right: #d6d6d6 1px solid;
+	font-weight: bold;
+	position: relative;
+	_bottom: -1px
+}
+
+.recordList {
+	color: #666
+}
+
+.recordList ul,.cash ul,.commission ul {
+	border-bottom: #eee 1px solid;
+	overflow: hidden;
+	zoom: 1
+}
+
+.recordList ul li {
+	padding: 8px 10px;
+	text-align: center;
+	width: 170px;
+	line-height: 22px
+}
+
+.recordList ul.listTitle {
+	border-top: #e3e3e3 1px solid;
+	border-bottom: #e3e3e3 1px solid
+}
+
+.recordList ul.listTitle li {
+	padding: 0 10px;
+	line-height: 28px
+}
+
+.recordList ul li.leftTitle {
+	text-align: left
+}
+
+.recordList ul li.leftTitle,.recordList ul li.fontAri {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.recordList ul li a {
+	color: #43b6ff
+}
+
+.recordList ul li a:hover {
+	color: #ca2a44;
+	text-decoration: underline
+}
+
+.recordList ul li.price {
+	padding-left: 50px;
+	width: 300px
+}
+
+.recordList ul li.regard {
+	text-align: right
+}
+
+.buyDetail ul li.leftTitle {
+	width: 430px
+}
+
+.buyDetail ul li.regard {
+	width: 80px
+}
+
+.count {
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0 15px
+}
+
+.count dd {
+	float: left;
+	padding-left: 10px;
+	font-size: 14px
+}
+
+.count dd em {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 17px
+}
+
+.count dd.btn {
+	float: right;
+	position: relative;
+	width: 88px
+}
+
+.count dd.btn,.count dd a {
+	height: 25px
+}
+
+.count dd.btn a {
+	display: block;
+	background: #f1f1f1;
+	border: #d6d6d6 1px solid;
+	text-align: right;
+	color: #878787;
+	padding-right: 14px;
+	width: 74px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 2px;
+	height: 25px;
+	line-height: 23px;
+	line-height: 25px\9
+}
+
+.count span {
+	display: block;
+	background-repeat: 0;
+	width: 8px;
+	height: 11px;
+	background-position: -115px -80px;
+	position: absolute;
+	left: 21px;
+	top: 7px
+}
+
+.select {
+	width: 780px;
+	margin: 10px auto 25px;
+	display: inline-block
+}
+
+.select ul {
+	margin-top: 15px
+}
+
+.select li {
+	float: left;
+	background: #fdfdfd;
+	border: #efefef 1px solid;
+	width: 110px;
+	height: 38px;
+	text-align: left;
+	line-height: 38px;
+	color: #666;
+	font-size: 12px;
+	font-family: "宋体";
+	font-weight: bold;
+	padding-left: 18px;
+	margin-left: 17px; *
+	line-height: 35px;
+	_height: 30px;
+	_padding-top: 8px;
+	_line-height: 27px;
+	cursor: pointer
+}
+
+.select li label {
+	cursor: pointer
+}
+
+.select li input {
+	position: relative;
+	top: 2px; *
+	top: 1px;
+	_top: 2px
+}
+
+.select li label b,.select li input.enter {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #ca2a44
+}
+
+.select li label strong {
+	font-family: "宋体";
+	color: #ca2a44
+}
+
+.select li.rdoCheck {
+	border: #bebebe 1px solid
+}
+
+.select li.selected {
+	border: #ff7010 1px solid
+}
+
+.select li.custom {
+	width: 170px;
+	_height: 35px;
+	_padding-top: 3px;
+	_line-height: 23px
+}
+
+.select li input.enter {
+	width: 68px;
+	height: 22px;
+	line-height: 22px;
+	border: #d6d3d6 1px solid;
+	padding: 0 3px;
+	margin-left: 5px;
+	color: #ca2a44;
+	position: relative;
+	top: 1px;
+	_top: 3px
+}
+
+.charge_money_list {
+	width: 770px;
+	padding: 13px 0 0 10px;
+	border-top: #eee 1px solid;
+	position: relative
+}
+
+.charge_money_list p.title {
+	font-weight: bold;
+	padding-bottom: 15px
+}
+
+.charge_money_list .tab_btn {
+	height: 37px;
+	line-height: 37px;
+	background: #f2f2f2;
+	font-size: 16px;
+	border-top: 2px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	_border-bottom: 0
+}
+
+.charge_money_list .tab_btn a {
+	display: block;
+	width: 146px;
+	float: left;
+	color: #333;
+	text-align: center
+}
+
+.charge_money_list .tab_btn a.tab_btn_hover {
+	color: #ca2a44;
+	background: #fff;
+	border-top: 2px solid #ca2a44;
+	border-bottom: 1px solid #fff;
+	margin-top: -2px
+}
+
+.charge_money_list .tab_btn a:hover {
+	color: #ca2a44
+}
+
+.charge_money_list ul.payment {
+	clear: both;
+	width: 750px;
+	padding: 20px 10px 0;
+	float: left;
+	border-bottom: 2px solid #e6e6e6
+}
+
+.charge_money_list ul.sel li {
+	float: left
+}
+
+.charge_money_list ul.payment li {
+	float: left
+}
+
+.charge_money_list ul.payment li.top {
+	padding-bottom: 20px;
+	width: 750px
+}
+
+.charge_money_list ul.payment li input {
+	display: block;
+	float: left;
+	margin: 12px 5px 0 0; *
+	margin: 10px 1px 0 0
+}
+
+.charge_money_list ul.payment span {
+	width: 130px;
+	height: 36px;
+	border: #ddd 1px solid;
+	text-indent: -9999px;
+	margin: 0 25px 0 0;
+	display: block;
+	float: left;
+	cursor: pointer;
+	background: url(/Images/bank_logo_2014.gif?v=0612);
+	overflow: hidden
+}
+
+p.leix {
+	clear: both;
+	float: left;
+	margin: 10px 0;
+	display: block;
+	width: 150px;
+	color: #333;
+	font-size: 16px
+}
+
+.charge_money_list li span.gh_bank {
+	background-position: 7px 0
+}
+
+.charge_money_list li span.zh_bank {
+	background-position: 7px -32px
+}
+
+.charge_money_list li span.jh_bank {
+	background-position: 7px -67px
+}
+
+.charge_money_list li span.nh_bank {
+	background-position: 7px -99px
+}
+
+.charge_money_list li span.pf_bank {
+	background-position: 7px -132px
+}
+
+.charge_money_list li span.sf_bank {
+	background-position: 7px -165px
+}
+
+.charge_money_list li span.xy_bank {
+	background-position: 7px -199px
+}
+
+.charge_money_list li span.bj_bank {
+	background-position: 7px -232px
+}
+
+.charge_money_list li span.gd_bank {
+	background-position: 7px -264px
+}
+
+.charge_money_list li span.ms_bank {
+	background-position: 7px -297px
+}
+
+.charge_money_list li span.zx_bank {
+	background-position: 7px -329px
+}
+
+.charge_money_list li span.gf_bank {
+	background-position: 7px -362px
+}
+
+.charge_money_list li span.pa_bank {
+	background-position: 7px -397px
+}
+
+.charge_money_list li span.zg_bank {
+	background-position: 7px -429px
+}
+
+.charge_money_list li span.jt_bank {
+	background-position: 7px -462px
+}
+
+.charge_money_list li span.hx_bank {
+	background-position: 7px -727px
+}
+
+.charge_money_list li span.sh_bank {
+	background-position: 7px -767px
+}
+
+.charge_money_list li span.nj_bank {
+	background-position: 7px -811px
+}
+
+.charge_money_list li span.yz_bank {
+	background-position: 5px -851px
+}
+
+.charge_money_list li span.hz_bank {
+	background-position: 5px -889px
+}
+
+.charge_money_list li span.lb_bank {
+	background-position: 7px -933px
+}
+
+.charge_money_list li span.cqls_bank {
+	background-position: 7px -972px
+}
+
+.charge_money_list li span.bj2_bank {
+	background-position: 7px -1005px
+}
+
+.charge_money_list li span.qd_bank {
+	background-position: 7px -1040px
+}
+
+.charge_money_list li span.cd_bank {
+	background-position: 7px -1081px
+}
+
+.charge_money_list li span.zfb {
+	background-position: 7px -613px
+}
+
+.charge_money_list li span.cft {
+	background-position: 7px -500px
+}
+
+.charge_money_list li span.yl {
+	background: url(/Images/bank_logo.png?v=23) 8px -550px
+}
+
+.charge_money_list li span.kq {
+	background-position: 11px -577px
+}
+
+.charge_money_list li span.wy {
+	background-position: 10px -539px
+}
+
+.charge_money_list li span.online {
+	background-position: 10px -649px
+}
+
+.charge_money_list li span.weixin {
+	background-position: 9px -688px
+}
+
+.charge_money_list li span.yunpay {
+	background: url(/Images/yunPay.png?v=23) 8px
+}
+
+.charge_money_list li span.iapppay {
+	background: url(/Images/iAppPay.png?v=23)
+}
+
+.charge_money_list li span.jubaopay {
+	background: url(/Images/jubaoPay.png?v=23) 4px
+}
+
+.charge_money_list li span.jd_bank {
+	background-position: 9px -1121px
+}
+
+.charge_money_list li span.qqmobile {
+	background-position: 8px -1162px
+}
+
+.charge_money_list li span.cft_bank {
+	background-position: 8px -500px
+}
+
+.charge_money_list p.much {
+	width: 770px;
+	float: left;
+	border-bottom: 1px solid #e6e7e8;
+	padding: 10px 0;
+	color: #666;
+	font-weight: bold
+}
+
+.charge_money_list p.much span {
+	font-size: 12px;
+	color: #b61a36;
+	font-weight: bold
+}
+
+.charge_money_list p.much span#Money {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 2px
+}
+
+.charge_money_list h6 {
+	clear: both;
+	margin-left: 68px;
+	padding: 15px 0
+}
+
+.charge_money_list .imm {
+	padding: 6px 19px;
+	padding: 8px 19px 4px\9; *
+	padding: 5px 19px 1px;
+	_padding: 6px 19px 2px;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.prompt_box {
+	width: 340px;
+	height: 140px;
+	position: relative
+}
+
+.prompt_box p.pic {
+	color: #fe7800;
+	height: 15px;
+	line-height: 15px;
+	padding: 10px 0 0 33px
+}
+
+.prompt_box p.pic em {
+	float: left;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: url(/Images/new-admin.png?v=150421) -82px -98px no-repeat;
+	margin-right: 2px
+}
+
+.prompt_box p.ts {
+	width: 280px;
+	padding: 10px 0 0 50px;
+	color: #999
+}
+
+.prompt_box p a {
+	color: #1070c4
+}
+
+.prompt_box p a:hover {
+	color: #ca2a44
+}
+
+.prompt_box ul {
+	width: 280px;
+	padding: 10px 0 0 50px;
+	float: left
+}
+
+.prompt_box ul li {
+	float: left;
+	padding-right: 20px
+}
+
+.prompt_box ul li a.look {
+	width: 110px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	display: block;
+	color: #666;
+	background: url(/Images/arrow_button.png) no-repeat 0 -410px
+}
+
+.prompt_box ul li a.back {
+	width: 94px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	display: block;
+	color: #666;
+	background: url(/Images/arrow_button.png) no-repeat 0 -440px
+}
+
+.prompt_box ul li a {
+	text-decoration: none
+}
+
+.recharge-card {
+	background: url(/Images/recharge-card.png?v=130723);
+	width: 438px;
+	height: 255px;
+	margin: 50px auto
+}
+
+.recharge-card ul {
+	padding: 30px 0 0 40px
+}
+
+.recharge-card li {
+	clear: both;
+	width: 300px;
+	padding-left: 82px;
+	font-size: 16px;
+	position: relative;
+	color: #333
+}
+
+.recharge-card li label {
+	display: block;
+	line-height: 28px;
+	vertical-align: middle;
+	position: absolute;
+	left: 0
+}
+
+.recharge-card li input {
+	width: 192px;
+	height: 20px;
+	padding: 4px 3px;
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	color: #bbb;
+	font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", Arial;
+	vertical-align: middle
+}
+
+.recharge-card li.z-error {
+	height: 18px;
+	margin: 3px 0 10px
+}
+
+.recharge-card li.z-error span {
+	color: #dd0101;
+	font-size: 12px;
+	background: url(/Images/arrow_button.png) no-repeat -170px -80px;
+	padding: 0 0 0 18px
+}
+
+.recharge-card li a {
+	display: block;
+	width: 86px;
+	height: 23px;
+	padding: 0;
+	margin-top: 15px
+}
+
+.recharge-card li a.graybtn {
+	background: #bbb;
+	border: 1px solid #bbb;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+	cursor: default
+}

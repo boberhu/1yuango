@@ -1,0 +1,320 @@
+.help-crumbs {
+	width: 980px;
+	margin: 0 auto 10px auto;
+	height: 20px;
+	line-height: 20px;
+	background: #f5f5f5;
+	overflow: hidden
+}
+
+.help-crumbs li {
+	background: url(/Images/help.png) transparent left -45px no-repeat;
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 0 10px
+}
+
+.help-crumbs .help-nobackground {
+	background: 0;
+	padding-left: 0
+}
+
+.help-crumbs span {
+	float: right
+}
+
+.help-main {
+	width: 980px;
+	margin: 0 auto
+}
+
+.help-right-part {
+	width: 100%;
+	float: right;
+	margin-left: -200px
+}
+
+.help-in-rihgt-part {
+	margin-left: 200px;
+	padding-left: 15px
+}
+
+.help-left-part {
+	float: left;
+	width: 200px
+}
+
+.help-nav {
+	width: 198px;
+	min-height: 395px;
+	border: 1px solid #e8e8e8;
+	padding-bottom: 10px;
+	margin-bottom: 10px
+}
+
+.help-nav h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	margin: 1px 1px 0 1px;
+	background-color: #3f3f3f
+}
+
+.help-nav h4 {
+	background: url(/Images/help.png) transparent 15px -77px no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 25px;
+	color: #333;
+	margin: 10px 0 0 0;
+	clear: both
+}
+
+.help-nav li {
+	padding-left: 25px;
+	width: 173px;
+	float: left;
+	height: 22px;
+	line-height: 22px
+}
+
+.help-contact {
+	width: 198px;
+	border: 1px solid #e8e8e8;
+	padding-bottom: 10px;
+	margin-bottom: 10px
+}
+
+.help-contact h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	background-color: #3f3f3f;
+	margin: 1px 1px 0 1px
+}
+
+.help-contact p {
+	padding: 10px 15px
+}
+
+.help-contact li {
+	padding-left: 15px
+}
+
+.help-contact span {
+	color: #c00;
+	font-weight: bold
+}
+
+.help-content {
+	min-height: 670px
+}
+
+.help-step-nav {
+	height: 58px;
+	padding-left: 70px
+}
+
+.help-step-nav li {
+	width: 140px;
+	float: left;
+	list-style-type: none;
+	height: 58px;
+	margin-right: 25px
+}
+
+.help-step-nav li span {
+	display: none
+}
+
+.help-step-nav li.help-s1,.help-step-nav li.help-s2,.help-step-nav li.help-s3,.help-step-nav li.help-s4
+	{
+	background: url(/Images/help.png) transparent no-repeat
+}
+
+.help-step-nav li.help-s1 {
+	background-position: 0 -120px
+}
+
+.help-step-nav li.help-s2 {
+	background-position: 0 -180px
+}
+
+.help-step-nav li.help-s3 {
+	background-position: 0 -240px
+}
+
+.help-step-nav li.help-s4 {
+	background-position: 0 -300px
+}
+
+.help-content h2 {
+	font-size: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #333
+}
+
+.help-content h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0
+}
+
+.help-content h4 {
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 15px;
+	height: 24px;
+	line-height: 24px;
+	margin: 10px 0
+}
+
+.help-content p {
+	padding: 0 15px 0 15px;
+	text-indent: 28px;
+	line-height: 22px;
+	font-size: 12px
+}
+
+.help-content p.bottom-space16px {
+	margin-bottom: 16px
+}
+
+.help-suggestion {
+	margin: 20px 50px;
+	width: 600px;
+	float: left;
+	display: inline
+}
+
+.help-suggestion dl {
+	width: 600px;
+	padding-bottom: 6px;
+	float: left
+}
+
+.help-suggestion dt {
+	width: 90px;
+	float: left;
+	text-align: right;
+	padding-right: 6px;
+	margin-top: 5px
+}
+
+.help-suggestion dl span {
+	padding-left: 10px
+}
+
+.help-suggestion dd {
+	width: 504px;
+	display: block;
+	float: left
+}
+
+.help-suggestion dl div {
+	width: 295px;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	color: #666;
+	float: left;
+	margin: 0 0 0 5px
+}
+
+.help-suggestion dl dd p {
+	width: 454px;
+	float: left;
+	padding: 0;
+	text-indent: 0
+}
+
+.help-suggestion dl div.ok {
+	background: url(/Images/arrow_button.png) no-repeat -170px -115px
+}
+
+.help-suggestion dl div.wrong {
+	color: #ca2a44;
+	background: url(/Images/arrow_button.png) no-repeat -170px -74px;
+	padding: 0 0 0 20px;
+	width: 275px
+}
+
+.help-suggestion input,select,textarea {
+	font-size: 12px;
+	color: #666;
+	float: left
+}
+
+.help-suggestion input {
+	height: 20px;
+	line-height: 20px;
+	width: 200px
+}
+
+.help-suggestion .help-action {
+	padding-left: 96px;
+	margin-top: 20px
+}
+
+.help-suggestion .help-btn {
+	width: 66px;
+	height: 29px;
+	line-height: 29px;
+	font-weight: bold;
+	display: block;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+	background: url(/Images/arrow_button.png) 0 -612px
+}
+
+.liucheng_pic {
+	background: url(/Images/shop_list.png) no-repeat left top;
+	width: 740px;
+	height: 58px;
+	margin-left: 10px
+}
+
+.liucheng_pic ul.yg-flow {
+	width: 740px;
+	height: 58px;
+	background: url(/Images/shop_list.png) no-repeat
+}
+
+.liucheng_pic ul.yg-flow li {
+	float: left;
+	color: #777
+}
+
+.liucheng_pic ul.yg-flow li.select {
+	padding: 26px 0 0 30px
+}
+
+.liucheng_pic ul.yg-flow li.pay {
+	padding: 26px 0 0 58px
+}
+
+.liucheng_pic ul.yg-flow li.lottery {
+	padding: 26px 0 0 52px
+}
+
+.liucheng_pic ul.yg-flow li.share {
+	padding: 26px 0 0 55px
+}

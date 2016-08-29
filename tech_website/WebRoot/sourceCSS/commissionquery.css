@@ -1,0 +1,341 @@
+@charset "utf-8"; 
+
+.consumer_records {
+	width: 784px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.green {
+	color: #3ca400
+}
+
+.gray-1 {
+	color: #999
+}
+
+.orange {
+	color: #ca2a44
+}
+
+.blue {
+	color: #0b71be
+}
+
+.button-1,.button-1 a,.button-2,.button-2 a {
+	background-image: url(/Images/number_newicon.png);
+	background-repeat: no-repeat
+}
+
+.button-1 {
+	background-position: 0 -52px;
+	display: inline-block
+}
+
+.button-1 a,.button-1 a:visited {
+	padding: 5px 17px 4px;
+	display: inline-block;
+	background-position: right -80px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer
+}
+
+.button-1 a:hover,.button-2 a:hover {
+	color: #fff
+}
+
+.button-2 {
+	background-position: 0 -108px;
+	display: inline-block
+}
+
+.button-2 a,.button-2 a:visited {
+	padding: 5px 13px 4px;
+	display: inline-block;
+	background-position: right -135px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer
+}
+
+.ui-select-selected i,.Query-button {
+	background-image: url(/Images/number_newicon.png);
+	background-repeat: no-repeat
+}
+
+.Query:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden
+}
+
+.Query {
+	width: 784px;
+	margin-top: 15px;
+	margin-bottom: 5px
+}
+
+.ui-txt {
+	float: left;
+	text-indent: 10px;
+	line-height: 23px
+}
+
+.ui-select {
+	float: left;
+	position: relative;
+	margin-right: 15px
+}
+
+.ui-select-selected {
+	float: left;
+	border: 1px solid #d0d0d0;
+	width: 103px;
+	height: 21px;
+	line-height: 21px;
+	line-height: 24px\0;
+	display: block;
+	text-indent: .5em;
+	position: relative;
+	cursor: pointer;
+	color: #666
+}
+
+.ui-select-selected i {
+	width: 22px;
+	height: 23px;
+	background-position: 0 0;
+	display: block;
+	position: absolute;
+	right: -1px;
+	_right: -2px;
+	top: -1px;
+	cursor: pointer
+}
+
+.ui-select-list {
+	border: 1px solid #d0d0d0;
+	position: absolute;
+	background: #fff;
+	width: 103px;
+	top: 22px;
+	left: 0;
+	padding: 0
+}
+
+.ui-select-list li {
+	height: 22px;
+	overflow: hidden;
+	line-height: 22px;
+	line-height: 26px\0; *+
+	line-height: 22px;
+	vertical-align: top;
+	margin: 0
+}
+
+.ui-select-list li a {
+	width: 98px;
+	display: inline-block;
+	padding-left: 5px
+}
+
+.ui-select-list li a:hover {
+	width: 98px;
+	display: inline-block;
+	padding-left: 5px;
+	text-decoration: none;
+	background: #3499e0;
+	color: #fff;
+	cursor: pointer
+}
+
+.ui-input {
+	width: 230px;
+	overflow: hidden;
+	float: left;
+	height: 23px;
+	line-height: 30px;
+	vertical-align: middle;
+	margin-right: 15px
+}
+
+.ui-input .ui-input_txt {
+	width: 20px;
+	line-height: 21px;
+	line-height: 24px\0;
+	text-align: center;
+	float: left
+}
+
+.ui-input input {
+	float: left
+}
+
+.time_small,.time_big {
+	vertical-align: top;
+	width: 103px;
+	border: 1px solid #d0d0d0;
+	height: 21px;
+	line-height: 21px;
+	text-indent: .5em;
+	background: #fff;
+	font-size: 12px;
+	color: #666
+}
+
+.Query-button {
+	float: left;
+	background-position: 0 -23px;
+	background-repeat: repeat-x;
+	border: 0 solid #d0d0d0;
+	height: 23px;
+	overflow: hidden;
+	line-height: 25px;
+	cursor: pointer;
+	width: 52px
+}
+
+ul.User_title_bg {
+	width: 784px;
+	color: #bdbdbd;
+	background: #f7f7f7;
+	height: 30px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2
+}
+
+ul.User_title_bg li {
+	float: left;
+	overflow: hidden;
+	line-height: 28px;
+	line-height: 30px\0; *+
+	line-height: 30px
+}
+
+.consumer_list ul.content {
+	width: 784px;
+	border-bottom: 1px solid #ebebeb;
+	height: 50px;
+	color: #676767
+}
+
+.consumer_list ul.content li {
+	float: left;
+	height: 50px;
+	line-height: 48px;
+	line-height: 50px\0; *+
+	line-height: 50px;
+	vertical-align: top
+}
+
+.Commission_info {
+	width: 774px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #f1f1f1;
+	padding-left: 10px
+}
+
+.Commission_info .gray-1 {
+	line-height: 30px;
+	display: block
+}
+
+.Commission_status:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden
+}
+
+.Commission_status {
+	height: 27px;
+	float: left;
+	width: 774px
+}
+
+.Com_1,.Com_2 {
+	margin-right: 15px;
+	margin-top: 4px;
+	line-height: 35px
+}
+
+.Com_3 {
+	margin-right: 15px;
+	margin-top: 2px
+}
+
+.Com_but {
+	margin-right: 5px
+}
+
+.Commission_status li {
+	float: left;
+	line-height: 18px;
+	color: #666
+}
+
+.Com_orange,.Com_green,.Com_gray {
+	font-family: "Tahoma";
+	padding: 0 4px
+}
+
+.Com_orange {
+	color: #ca2a44;
+	font-weight: bold
+}
+
+.Com_gray {
+	color: #666;
+	font-weight: bold
+}
+
+.Com_green {
+	color: #3ea200;
+	font-size: 18px
+}
+
+.Commission_list li.User {
+	width: 130px;
+	text-align: left;
+	text-indent: 10px
+}
+
+.Commission_list li.time {
+	width: 170px;
+	text-align: left
+}
+
+.Commission_list li.Commodity {
+	width: 300px;
+	text-align: left;
+	height: 20px;
+	overflow: hidden
+}
+
+.Commission_list li.money {
+	width: 100px;
+	text-align: center
+}
+
+.Commission_list li.Commission {
+	width: 80px;
+	text-align: center
+}
+
+.Commission_list ul.content li.Commission {
+	font-weight: bold
+}
+
+.notFound2 {
+	width: 774px;
+	padding-top: 20px;
+	text-align: center;
+	color: #666;
+	float: left
+}
